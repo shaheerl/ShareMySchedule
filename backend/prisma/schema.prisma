@@ -1,0 +1,127 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              String    @id @default(cuid())
+  name            String?
+  email           String    @unique
+  university      String?
+  emailVerifiedAt DateTime?
+  passwordHash    String
+  degree          String? // NEW
+  major           String? // NEW
+  yearOfStudy     String? // NEW
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  sessions  Session[]
+  schedules Schedule[]
+  uploads   Upload[]
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  userId       String
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  refreshToken String   @unique
+  createdAt    DateTime @default(now())
+  expiresAt    DateTime
+}
+
+model EmailVerificationToken {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  token     String   @unique
+  createdAt DateTime @default(now())
+  expiresAt DateTime
+}
+
+model PasswordResetToken {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  token     String   @unique
+  createdAt DateTime @default(now())
+  expiresAt DateTime
+}
+
+enum Term {
+  Fall
+  Winter
+  Summer
+}
+
+model Schedule {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  term       Term
+  courseCode String
+  section    String?
+  type       String? // LECT, LAB, TUT, etc.
+  days       String // e.g. "MWF" or "TR" (simple for now)
+  startTime  String // "09:30"
+  duration   Int? // minutes
+  room       String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model Upload {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  term      Term
+  filename  String
+  createdAt DateTime @default(now())
+}
+
+// prisma/schema.prisma
+model Course {
+  id        String    @id @default(cuid())
+  faculty   String
+  subject   String
+  number    String
+  credits   String
+  name      String
+  code      String    @unique // e.g. "LEEECS34823.00"
+  sections  Section[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+model Section {
+  id         String     @id @default(cuid())
+  courseId   String
+  course     Course     @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  term       String     // "F" | "W" | "S"
+  letter     String     // "A", "M", etc.
+  instructor String?
+  offerings  Offering[]
+}
+
+model Offering {
+  id        String    @id @default(cuid())
+  sectionId String
+  section   Section   @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  type      String    // "LECT" | "LAB" | "TUTR"
+  number    String?   // "01", "02"...
+  notes     String?
+  meetings  Meeting[]
+}
+
+model Meeting {
+  id         String   @id @default(cuid())
+  offeringId String
+  offering   Offering @relation(fields: [offeringId], references: [id], onDelete: Cascade)
+  day        String?  // "M","T","W","R","F"
+  startTime  String?  // "14:30"
+  duration   Int?     // minutes
+  campus     String?
+  room       String?
+}
