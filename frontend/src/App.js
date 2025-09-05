@@ -16,14 +16,15 @@ function AppRoutes() {
   const nav = useNavigate();
 
   useEffect(() => {
-  const accessToken = localStorage.getItem("accessToken");
+  const accessToken = sessionStorage.getItem("accessToken");
+
   if (accessToken) {
     nav("/home", { replace: true });
     return;
   }
 
-  const refreshToken =
-    localStorage.getItem("refreshToken") || sessionStorage.getItem("refreshToken");
+  const refreshToken = sessionStorage.getItem("refreshToken");
+
 
   if (refreshToken) {
     apiPost("/auth/refresh", { refreshToken })
