@@ -6,6 +6,7 @@ export default function SignIn() {
   const nav = useNavigate();
   const [username, setUsername] = useState(""); // email
   const [password, setPassword] = useState("");
+  const [keepMe, setKeepMe] = useState(false);
   const [msg, setMsg] = useState("");
 
   const onSignIn = async (e) => {
@@ -17,8 +18,15 @@ export default function SignIn() {
         password,
       });
 
+      // Access token always in localStorage for simplicity
+      localStorage.setItem("accessToken", accessToken);
+
+      // Refresh token storage depends on checkbox
+      if (keepMe) {
+        localStorage.setItem("refreshToken", refreshToken);
+      } else {
         sessionStorage.setItem("refreshToken", refreshToken);
-        sessionStorage.setItem("accessToken", accessToken);
+      }
 
       // Optional: test call
       const me = await apiGet("/auth/me", accessToken);
@@ -45,6 +53,15 @@ export default function SignIn() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
+
+        <label style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+          <input
+            type="checkbox"
+            checked={keepMe}
+            onChange={(e) => setKeepMe(e.target.checked)}
+          />
+          Keep me signed in
+        </label>
 
         <button type="submit">Sign In</button>
       </form>
