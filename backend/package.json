@@ -6,7 +6,10 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed:create": "node scripts/seedDummyData.js",
+    "seed:wipe": "node scripts/wipeDummyData.js",
+    "import:classes": "node utils/importFromSpreadsheetCSV.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +19,7 @@
     "bcrypt": "^6.0.0",
     "cheerio": "^1.1.2",
     "cors": "^2.8.5",
+    "csv-parse": "^6.1.0",
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
     "express-rate-limit": "^8.1.0",

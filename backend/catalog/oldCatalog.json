@@ -1,0 +1,149 @@
+[
+  {
+    "faculty": "LE",
+    "subject": "EECS",
+    "number": "3482",
+    "credits": "3.00",
+    "name": "Introduction to Computer Security",
+    "sections": [
+      {
+        "term": "F",
+        "letter": "A",
+        "instructor": "Yan Shvartzshnaider",
+        "offerings": [
+          {
+            "type": "LECT",
+            "number": "01",
+            "notes": "",
+            "meetings": [
+              { "day": "T", "startTime": "14:30", "duration": 80, "campus": "Keele", "room": "LSB 106" },
+              { "day": "R", "startTime": "14:30", "duration": 80, "campus": "Keele", "room": "LSB 106" }
+            ]
+          },
+          {
+            "type": "LAB",
+            "number": "02",
+            "notes": "",
+            "meetings": [
+              { "day": "F", "startTime": "13:30", "duration": 110, "campus": "Keele", "room": "LAS 1002" }
+            ]
+          },
+          {
+            "type": "LAB",
+            "number": "03",
+            "notes": "",
+            "meetings": [
+              { "day": "T", "startTime": "17:30", "duration": 110, "campus": "Keele", "room": "LAS 1002" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "faculty": "LE",
+    "subject": "EECS",
+    "number": "3221",
+    "credits": "3.00",
+    "name": "Operating System Fundamentals",
+    "sections": [
+      {
+        "term": "W",
+        "letter": "M",
+        "instructor": "Dr. Jane Doe",
+        "offerings": [
+          {
+            "type": "LECT",
+            "number": "01",
+            "notes": "",
+            "meetings": [
+              { "day": "M", "startTime": "11:30", "duration": 80, "campus": "Keele", "room": "LAS 1012" },
+              { "day": "W", "startTime": "11:30", "duration": 80, "campus": "Keele", "room": "LAS 1012" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "faculty": "SC",
+    "subject": "MATH",
+    "number": "1013",
+    "credits": "3.00",
+    "name": "Calculus I",
+    "sections": [
+      {
+        "term": "F",
+        "letter": "B",
+        "instructor": "Prof. Smith",
+        "offerings": [
+          {
+            "type": "LECT",
+            "number": "01",
+            "notes": "",
+            "meetings": [
+              { "day": "M", "startTime": "09:00", "duration": 80, "campus": "Keele", "room": "CB 115" },
+              { "day": "W", "startTime": "09:00", "duration": 80, "campus": "Keele", "room": "CB 115" }
+            ]
+          },
+          {
+            "type": "TUTR",
+            "number": "01",
+            "notes": "",
+            "meetings": [
+              { "day": "F", "startTime": "10:00", "duration": 60, "campus": "Keele", "room": "CB 220" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "faculty": "HH",
+    "subject": "PSYC",
+    "number": "1010",
+    "credits": "6.00",
+    "name": "Introduction to Psychology",
+    "sections": [
+      {
+        "term": "F",
+        "letter": "C",
+        "instructor": "Dr. Alex Johnson",
+        "offerings": [
+          {
+            "type": "LECT",
+            "number": "01",
+            "notes": "",
+            "meetings": [
+              { "day": "T", "startTime": "16:00", "duration": 90, "campus": "Keele", "room": "VH 1004" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "faculty": "SB",
+    "subject": "MGMT",
+    "number": "1000",
+    "credits": "3.00",
+    "name": "Introduction to Business",
+    "sections": [
+      {
+        "term": "W",
+        "letter": "D",
+        "instructor": "Prof. Lee",
+        "offerings": [
+          {
+            "type": "LECT",
+            "number": "01",
+            "notes": "",
+            "meetings": [
+              { "day": "R", "startTime": "10:00", "duration": 80, "campus": "Keele", "room": "DB 200" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

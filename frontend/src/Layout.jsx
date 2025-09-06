@@ -26,7 +26,7 @@ export default function Layout() {
       {/* Main area */}
       <div style={styles.main}>
         <div style={styles.topBar}>
-          <h1>ShareMySchedule</h1>
+          <h1>Share My Schedule</h1>
           <button style={styles.signOutBtn} onClick={signOut}>
             Sign Out
           </button>

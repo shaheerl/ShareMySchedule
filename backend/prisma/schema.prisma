@@ -8,30 +8,29 @@ datasource db {
 }
 
 model User {
-  id              String    @id @default(cuid())
+  id              String     @id @default(cuid())
   name            String?
-  email           String    @unique
+  email           String     @unique
   university      String?
   emailVerifiedAt DateTime?
   passwordHash    String
-  degree          String? // NEW
-  major           String? // NEW
-  yearOfStudy     String? // NEW
-  createdAt       DateTime  @default(now())
-  updatedAt       DateTime  @updatedAt
-
-  sessions  Session[]
-  schedules Schedule[]
-  uploads   Upload[]
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+  degree          String?
+  major           String?
+  yearOfStudy     String?
+  schedules       Schedule[]
+  sessions        Session[]
+  uploads         Upload[]
 }
 
 model Session {
   id           String   @id @default(cuid())
   userId       String
-  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   refreshToken String   @unique
   createdAt    DateTime @default(now())
   expiresAt    DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
 model EmailVerificationToken {
@@ -50,78 +49,80 @@ model PasswordResetToken {
   expiresAt DateTime
 }
 
-enum Term {
-  F
-  W
-  S
-}
-
 model Schedule {
   id         String   @id @default(cuid())
   userId     String
-  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   term       Term
   courseCode String
   section    String?
-  type       String? // LECT, LAB, TUT, etc.
-  days       String // e.g. "MWF" or "TR" (simple for now)
-  startTime  String // "09:30"
-  duration   Int? // minutes
+  type       String?
+  days       String
+  startTime  String
+  duration   Int?
   room       String?
   createdAt  DateTime @default(now())
   updatedAt  DateTime @updatedAt
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
 model Upload {
   id        String   @id @default(cuid())
   userId    String
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   term      Term
   filename  String
   createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
-// prisma/schema.prisma
 model Course {
   id        String    @id @default(cuid())
-  faculty   String
-  subject   String
-  number    String
-  credits   String
-  name      String
-  code      String    @unique // e.g. "LEEECS34823.00"
-  sections  Section[]
+  code      String    @unique
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
+  credits   String
+  faculty   String
+  name      String
+  number    String
+  subject   String
+  sections  Section[]
 }
 
 model Section {
   id         String     @id @default(cuid())
   courseId   String
-  course     Course     @relation(fields: [courseId], references: [id], onDelete: Cascade)
-  term       String     // "F" | "W" | "S"
-  letter     String     // "A", "M", etc.
+  term       String
   instructor String?
+  letter     String
   offerings  Offering[]
+  course     Course     @relation(fields: [courseId], references: [id], onDelete: Cascade)
 }
 
 model Offering {
   id        String    @id @default(cuid())
   sectionId String
-  section   Section   @relation(fields: [sectionId], references: [id], onDelete: Cascade)
-  type      String    // "LECT" | "LAB" | "TUTR"
-  number    String?   // "01", "02"...
+  type      String
+  number    String?
   notes     String?
   meetings  Meeting[]
+  section   Section   @relation(fields: [sectionId], references: [id], onDelete: Cascade)
 }
 
 model Meeting {
   id         String   @id @default(cuid())
-  offeringId String
-  offering   Offering @relation(fields: [offeringId], references: [id], onDelete: Cascade)
-  day        String?  // "M","T","W","R","F"
-  startTime  String?  // "14:30"
-  duration   Int?     // minutes
+  day        String?
+  startTime  String?
+  duration   Int?
   campus     String?
+  offeringId String
   room       String?
+  offering   Offering @relation(fields: [offeringId], references: [id], onDelete: Cascade)
+}
+
+enum Term {
+  F
+  W
+  S
+  Y
+  LB
+  WL
 }

@@ -94,6 +94,16 @@ app.post("/schedules/:id/delete", auth, async (req, res) => {
   return res.json({ ok: true });
 });
 
+// Delete all schedules for a given courseCode for the logged-in user
+app.delete("/schedules/code/:courseCode", auth, async (req, res) => {
+  const { courseCode } = req.params;
+  const deleted = await prisma.schedule.deleteMany({
+    where: { userId: req.user.sub, courseCode },
+  });
+  res.json({ ok: true, deleted: deleted.count });
+});
+
+
 
 app.get("/courses/search", (req, res) => {
   const q = (req.query.q || "").toLowerCase();
