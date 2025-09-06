@@ -51,9 +51,9 @@ model PasswordResetToken {
 }
 
 enum Term {
-  Fall
-  Winter
-  Summer
+  F
+  W
+  S
 }
 
 model Schedule {

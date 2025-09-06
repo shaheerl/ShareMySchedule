@@ -18,7 +18,7 @@ export default function Layout() {
         <ul style={styles.menu}>
           <li onClick={() => nav("/home")}>Home</li>
           <li onClick={() => nav("/my-schedule")}>My Schedule</li>
-          <li onClick={() => nav("/find-friends")}>Find Friends</li>
+          <li onClick={() => nav("/find-classmates")}>Find Classmates</li>
           <li onClick={() => nav("/account-settings")}>Account Settings</li>
         </ul>
       </div>

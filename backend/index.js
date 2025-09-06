@@ -11,11 +11,15 @@ import multer from "multer";
 import path from "path";
 import fs from "fs";
 import fetch from "node-fetch";
+import { Term } from "@prisma/client";
 
 dotenv.config();
 
 const prisma = new PrismaClient();
 const app = express();
+
+console.log("Prisma Term enum values:", Term);
+
 
 const APP_ORIGIN = process.env.APP_BASE_URL || "http://localhost:3000";
 
@@ -29,6 +33,15 @@ app.use(
     legacyHeaders: false,
   })
 );
+
+const toEnum = (t) => {
+  if (!t) return null;
+  const key = String(t).trim().toUpperCase();
+  if (key === 'F') return Term.F;
+  if (key === 'W') return Term.W;
+  if (key === 'S') return Term.S;
+  return null;
+};
 
 const PORT = process.env.PORT || 5000;
 
@@ -71,63 +84,16 @@ app.get("/schedules", auth, async (req, res) => {
   res.json({ schedules });
 });
 
-app.post("/schedules/upload", auth, upload.single("file"), async (req, res) => {
-  try {
-    const { term } = req.body; // "Fall" | "Winter" | "Summer"
-    if (!req.file) return res.status(400).json({ error: "No file" });
-    if (!["Fall", "Winter", "Summer"].includes(term)) {
-      return res.status(400).json({ error: "Invalid term" });
-    }
-
-    // store upload record
-    await prisma.upload.create({
-      data: { userId: req.user.sub, term, filename: req.file.filename },
-    });
-
-    // send file to OCR service
-    const form = new FormData();
-    form.append("file", fs.createReadStream(req.file.path), req.file.originalname);
-
-    const ocrRes = await fetch("http://localhost:6000/ocr", { method: "POST", body: form });
-    const ocrData = await ocrRes.json(); // { extracted_text }
-
-    const text = (ocrData?.extracted_text || "").replace(/\r/g, "");
-
-    // SUPER SIMPLE heuristic parse (you’ll improve later):
-    // Look for lines like "EECS 3482", durations, day letters, start times
-    const lines = text.split("\n").map(l => l.trim()).filter(Boolean);
-
-    // naive course code regex and time/duration hints
-    const guess = [];
-    for (const line of lines) {
-      const code = line.match(/[A-Z]{2,}[\s/]*\d{3,4}/)?.[0]?.replace(/\s+/g, " ");
-      const days = line.match(/\b(M|T|W|R|F){1,5}\b/)?.[0] || "";
-      const start = line.match(/\b([01]?\d|2[0-3]):?[0-5]\d\b/)?.[0] || "";
-      if (code && start) {
-        guess.push({
-          term,
-          courseCode: code,
-          section: "",
-          type: "",
-          days: days || "",
-          startTime: start.includes(":") ? start : start.replace(/(\d{1,2})(\d{2})/, "$1:$2"),
-          duration: 80,
-          room: ""
-        });
-      }
-    }
-
-    return res.json({
-      message: "OCR complete",
-      rawText: text,
-      guesses: guess, // array for manual page
-      term
-    });
-  } catch (e) {
-    console.error(e);
-    res.status(500).json({ error: "Upload/OCR failed" });
+app.post("/schedules/:id/delete", auth, async (req, res) => {
+  const { id } = req.params;
+  const found = await prisma.schedule.findUnique({ where: { id } });
+  if (!found || found.userId !== req.user.sub) {
+    return res.status(404).json({ error: "Not found" });
   }
+  await prisma.schedule.delete({ where: { id } });
+  return res.json({ ok: true });
 });
+
 
 app.get("/courses/search", (req, res) => {
   const q = (req.query.q || "").toLowerCase();
@@ -149,26 +115,84 @@ app.get("/courses/:subject/:number", (req, res) => {
 });
 
 app.post("/schedules/bulk", auth, async (req, res) => {
-  const { items } = req.body;
-  if (!Array.isArray(items) || !items.length) return res.status(400).json({ error: "No items" });
+  try {
+    const { items } = req.body;
+    if (!Array.isArray(items) || items.length === 0) {
+      return res.status(400).json({ error: "No items" });
+    }
 
-  const terms = Array.from(new Set(items.map(i => i.term)));
-  await prisma.schedule.deleteMany({ where: { userId: req.user.sub, term: { in: terms } } });
+    // Validate + map terms first
+    const normalized = items.map((i, idx) => {
+      const termEnum = toEnum(i.term);
+      if (!termEnum) {
+        throw new Error(`Item ${idx + 1}: invalid term '${i.term}', expected F/W/S`);
+      }
+      if (!i.courseCode || typeof i.courseCode !== "string") {
+        throw new Error(`Item ${idx + 1}: missing/invalid courseCode`);
+      }
+      return {
+        userId: req.user.sub,
+        term: termEnum,
+        courseCode: i.courseCode.trim(),
+        section: i.section ?? "",
+        type: i.type ?? "",
+        days: i.days ?? "",
+        startTime: i.startTime ?? "",
+        duration:
+          i.duration === null || i.duration === undefined
+            ? null
+            : Number(i.duration),
+        room: i.room ?? null,
+      };
+    });
 
-  const data = items.map(i => ({
-    userId: req.user.sub,
-    term: i.term,
-    courseCode: i.courseCode,
-    section: i.section,
-    type: i.type,
-    days: i.days,
-    startTime: i.startTime,
-    duration: i.duration ? Number(i.duration) : null,
-    room: i.room
-  }));
+    // Group by (term, courseCode)
+    const groups = new Map(); // key = `${term}|${courseCode}`
+    for (const row of normalized) {
+      const key = `${row.term}|${row.courseCode}`;
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(row);
+    }
 
-  await prisma.schedule.createMany({ data });
-  res.json({ ok: true });
+    // Build a transaction: delete per group, then insert per group
+    const ops = [];
+    for (const [key, rows] of groups.entries()) {
+      const [term, courseCode] = key.split("|");
+      ops.push(
+        prisma.schedule.deleteMany({
+          where: {
+            userId: req.user.sub,
+            term: term,             // already enum value
+            courseCode: courseCode, // same course only
+          },
+        })
+      );
+      ops.push(prisma.schedule.createMany({ data: rows }));
+    }
+
+    const results = await prisma.$transaction(ops);
+
+    // results contains counts interleaved: [deleted, inserted, deleted, inserted, ...]
+    const deleted = results
+      .filter(r => typeof r.count === "number")
+      .filter((_, idx) => idx % 2 === 0) // even indices = deleteMany
+      .reduce((sum, r) => sum + r.count, 0);
+
+    const inserted = results
+      .filter(r => typeof r.count === "number")
+      .filter((_, idx) => idx % 2 === 1) // odd indices = createMany
+      .reduce((sum, r) => sum + r.count, 0);
+
+    return res.json({
+      ok: true,
+      groups: groups.size,
+      deleted,
+      inserted,
+    });
+  } catch (err) {
+    console.error("bulk save error:", err);
+    return res.status(400).json({ error: err.message || "Failed to save schedule" });
+  }
 });
 
 
@@ -393,3 +417,154 @@ app.get("/courses/:id", async (req, res) => {
   if (!course) return res.status(404).json({ error: "Not found" });
   res.json({ course });
 });
+
+// GET /classmates?term=F|W|S
+app.get("/classmates", auth, async (req, res) => {
+  try {
+    const rawTerm = (req.query.term || "").toUpperCase();
+    if (!["F", "W", "S"].includes(rawTerm)) {
+      return res.status(400).json({ error: "term must be F, W, or S" });
+    }
+
+    // Map to enum
+    const termEnum = rawTerm === "F" ? Term.F : rawTerm === "W" ? Term.W : Term.S;
+
+    // Get all schedules for the term, with user emails
+    const rows = await prisma.schedule.findMany({
+      where: { term: termEnum },
+      include: { user: { select: { id: true, email: true } } },
+    });
+
+    // Build maps per user
+    const perUser = new Map(); // userId -> { email, courses: Set(courseCode), lecs: Map(courseCode -> section), labs: Map(courseCode -> Set(labNumber)) }
+    for (const r of rows) {
+      const uid = r.userId;
+      if (!perUser.has(uid)) {
+        perUser.set(uid, {
+          email: r.user.email,
+          courses: new Set(),
+          lecs: new Map(),
+          labs: new Map(),
+        });
+      }
+      const u = perUser.get(uid);
+
+      // Distinct course list by courseCode (based primarily on LECT)
+      if (r.type === "LECT") {
+        u.courses.add(r.courseCode);
+        u.lecs.set(r.courseCode, r.section || "");
+      }
+
+      // Track labs per course
+      if (r.type === "LAB") {
+        if (!u.labs.has(r.courseCode)) u.labs.set(r.courseCode, new Set());
+        // Use the lab "number" (comes in via `section` in your Schedule model)
+        if (r.section) u.labs.get(r.courseCode).add(r.section);
+      }
+
+      // If a course only has LAB (edge-case), still record the course
+      if (!u.courses.has(r.courseCode) && (r.type !== "LECT")) {
+        u.courses.add(r.courseCode);
+      }
+    }
+
+    const me = perUser.get(req.user.sub);
+    if (!me) return res.json({ term: rawTerm, buckets: {}, detailed: [] });
+
+    // Compare others to me
+    const myCourses = Array.from(me.courses);
+    const myCourseSet = new Set(myCourses);
+    const myLabs = me.labs;           // Map(courseCode -> Set(labNumbers))
+    const myLecs = me.lecs;           // Map(courseCode -> section)
+
+    const detailed = [];
+
+    for (const [otherId, other] of perUser.entries()) {
+      if (otherId === req.user.sub) continue;
+
+      const otherCourses = Array.from(other.courses);
+      const otherCourseSet = new Set(otherCourses);
+
+      // Shared courses (courseCode match only)
+      const sharedCourseCodes = myCourses.filter(c => otherCourseSet.has(c));
+      const sharedCourseCount = sharedCourseCodes.length;
+
+      if (sharedCourseCount === 0) continue; // skip non-matches
+
+      // Same section count (LECT section match)
+      let sameSectionCount = 0;
+      for (const c of sharedCourseCodes) {
+        const mySec = myLecs.get(c) || "";
+        const oSec = other.lecs.get(c) || "";
+        if (mySec && oSec && mySec === oSec) sameSectionCount++;
+      }
+
+      // Lab overlaps per shared course
+      let labMatchCount = 0;
+      const labMatchesByCourse = {};
+      for (const c of sharedCourseCodes) {
+        const mine = myLabs.get(c) || new Set();
+        const theirs = other.labs.get(c) || new Set();
+        if (mine.size && theirs.size) {
+          const overlap = Array.from(mine).filter(x => theirs.has(x));
+          if (overlap.length > 0) {
+            labMatchCount += overlap.length;
+            labMatchesByCourse[c] = overlap;
+          }
+        }
+      }
+
+      // Exact course set match (ignoring labs)
+      const allCoursesMatch =
+        myCourses.length === otherCourses.length &&
+        myCourses.every((c) => otherCourseSet.has(c));
+
+      // All labs match (for courses we both take)
+      let allLabsMatch = true;
+      for (const c of sharedCourseCodes) {
+        const mine = myLabs.get(c) || new Set();
+        const theirs = other.labs.get(c) || new Set();
+        // consider "all labs match" only if both have labs for the course
+        if (mine.size || theirs.size) {
+          if (mine.size !== theirs.size) { allLabsMatch = false; break; }
+          for (const lab of mine) if (!theirs.has(lab)) { allLabsMatch = false; break; }
+          if (!allLabsMatch) break;
+        }
+      }
+
+      detailed.push({
+        email: other.email,
+        sharedCourseCount,
+        sharedCourseCodes,
+        sameSectionCount,
+        labMatchCount,
+        labMatchesByCourse,
+        allCoursesMatch,
+        allLabsMatch,
+      });
+    }
+
+    // Buckets for 1,2,3,... courses and exact matches
+    const byCourseCount = {};
+    for (const d of detailed) {
+      const k = String(d.sharedCourseCount);
+      if (!byCourseCount[k]) byCourseCount[k] = [];
+      byCourseCount[k].push(d.email);
+    }
+
+    const exactCourses = detailed
+      .filter(d => d.allCoursesMatch)
+      .map(d => d.email);
+
+    res.json({
+      term: rawTerm,
+      myCourses,
+      buckets: { byCourseCount, exactCourses },
+      detailed, // keep for richer UI
+    });
+  } catch (e) {
+    console.error(e);
+    res.status(500).json({ error: "Failed to compute classmates" });
+  }
+});
+

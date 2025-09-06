@@ -8,9 +8,8 @@ import Layout from "./Layout";
 import ProtectedRoute from "./ProtectedRoute";
 import { apiPost } from "./api";
 import MySchedule from "./pages/MySchedule";
-import UploadSchedule from "./pages/UploadSchedule";
 import ManualEntry from "./pages/ManualEntry";
-import EditCourse from "./pages/EditCourse";
+import FindClassmates from "./pages/FindClassmates";
 
 function AppRoutes() {
   const nav = useNavigate();
@@ -55,12 +54,10 @@ const refreshToken = sessionStorage.getItem("refreshToken");
         }
       >
         <Route path="/home" element={<Home />} />
-        <Route path="/find-friends" element={<div>Find Friends Page</div>} />
+<Route path="/find-classmates" element={<FindClassmates />} />
         <Route path="/account-settings" element={<AccountSettings />} />
         <Route path="/my-schedule" element={<MySchedule />} />
-<Route path="/upload-schedule" element={<UploadSchedule />} />
 <Route path="/manual-entry" element={<ManualEntry />} />
-<Route path="/edit-course/:id" element={<EditCourse />} />
       </Route>
 
       {/* Fallback */}
