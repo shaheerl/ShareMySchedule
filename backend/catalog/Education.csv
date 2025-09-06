@@ -1,0 +1,891 @@
+Fac,Dept,Term,Course ID,LOI,Type,Meet,Cat.No.,Day,Time,Dur,Campus,Room,Instructors,Notes/Additional Fees
+ED,ACTG,F,Teaching Accounting in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,E77J01�,F,8:30,170,Keele,WC 117,Roy Parteno�,
+ED,ACTG,W,Teaching Accounting in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,V24R01�,F,8:30,170,Keele,WC 117,Roy Parteno�,
+ED,AUCO,B2,Educational Audiology,,,,,,,,,,,
+,,,3555 �3.00�A�,EN,BLEN�,01�,H96N01�,,0:00,0,Keele,��,Pamela Millett�,Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.�
+,,,,,,,,,,,,,,
+ED,BBED,B4,Bilingual - Bicultural Education,,,,,,,,,,,
+,,,3570 �3.00�M�,EN,BLEN�,01�,S27M01�,,0:00,0,Keele,��,,Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.?�
+,,,,,,,,,,,,,,
+ED,BIOL,F,Teaching Biology in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,N25A01�,F,11:30,170,Keele,MC 157AB,Darren Hoeg�,
+ED,BIOL,W,Teaching Biology in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,B06R01�,F,11:30,170,Keele,MC 157AB,Darren Hoeg�,
+ED,BUSI,F,Teaching Business Studies in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,X18M01�,F,8:30,170,Keele,WC 117,Roy Parteno�,
+ED,BUSI,W,Teaching Business Studies in the Intermediate-Senior Divisions � B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,Z71D01�,F,8:30,170,Keele,WC 117,Roy Parteno�,
+ED,CHEM,F,Teaching Chemistry in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,Q44E01�,F,8:30,170,Keele,MC 157AB,Lisa Cole�,
+ED,CHEM,W,Teaching Chemistry in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,J91N01�,F,8:30,170,Keele,MC 157AB,Lisa Cole�,
+ED,COST,F,Teaching Computer Studies in the Intermediate Division - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,S12G01�,F,8:30,170,Keele,WC 117,Roy Parteno�,
+ED,COST,W,Teaching Computer Studies in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,B65V01�,F,8:30,170,Keele,WC 117,Roy Parteno�,
+ED,DANC,F,Teaching Dance in the Intermediate Division,,,,,,,,,,,
+,,,3000 �3.00�A�,EN,LECT�,01�,Cancelled,,,,,,,
+,,,3000 �3.00�B�,EN,ISTY�,01�,W08N01�,F,8:30,170,Keele,��,Lisa Sandlos�,
+ED,DANC,F,Teaching Dance in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,Cancelled,,,,,,,
+,,,4000 �3.00�B�,EN,ISTY�,01�,P55W01�,F,8:30,170,Keele,��,Lisa Sandlos�,
+ED,DANC,W,Teaching Dance in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�B�,EN,ISTY�,01�,J02X01�,F,8:30,170,Keele,��,Lisa Sandlos�,
+,,,4001 �3.00�M�,EN,LECT�,01�,Cancelled,,,,,,,
+ED,DEST,B1,Deaf Studies - Introduction,,,,,,,,,,,
+,,,3770 �3.00�A�,EN,BLEN�,01�,C96S01�,,0:00,0,Keele,��,Connie Mayer�,Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.?�
+,,,,,,,,,,,,,,$74.00 - Course Materials�
+ED,DEST,B4,Deaf Studies - Culture and Community,,,,,,,,,,,
+,,,3780 �3.00�M�,EN,BLEN�,01�,Y74V01�,,0:00,0,Keele,��,,Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.?�
+,,,,,,,,,,,,,,
+ED,DRAA,F,Teaching Dramatic Arts in the Intermediate Division,,,,,,,,,,,
+,,,3000 �3.00�A�,EN,LECT�,01�,T93U01�,F,11:30,170,Keele,��,Mara Reich�,
+ED,DRAA,F,Teaching Dramatic Arts in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,N40G01�,F,11:30,170,Keele,��,Mara Reich�,
+ED,DRAA,W,Teaching Dramatic Arts in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,H52P01�,F,11:30,170,Keele,��,Mara Reich�,
+ED,ECON,F,Teaching Economics in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,Y59P01�,F,8:30,170,Keele,DB 3140,Peter Flaherty�,
+,,,4000 �3.00�B�,EN,LECT�,01�,F06B01�,F,11:30,170,Keele,DB 3140,Peter Flaherty�,(Backup)�
+ED,ECON,W,Teaching Economics in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,V53J01�,F,8:30,170,Keele,DB 3140,Peter Flaherty�,
+,,,4001 �3.00�N�,EN,LECT�,01�,P00S01�,F,11:30,170,Keele,DB 3140,Peter Flaherty�,(Backup)�
+ED,EDFE,F,Child Development & Health,,,,,,,,,,,
+,,,1100 �3.00�U�,EN,LECT�,01�,K36X01�,T,8:30,170,Catholic Education Centre,��,Aziz Guzel�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+,,,1100 �3.00�W�,EN,LECT�,01�,H24X01�,M,8:30,170,Markham,MK 5000,Tiffany Barnikis�,
+,,,1100 �3.00�X�,EN,LECT�,01�,A71R01�,M,11:30,170,Markham,MK 5010,Nadia Khalili�,
+,,,1100 �3.00�Y�,EN,LECT�,01�,R18C01�,M,14:30,170,Markham,MK 5000,Tiffany Barnikis�,
+,,,1100 �3.00�Z�,EN,LECT�,01�,K65Y01�,M,11:30,170,Markham,MK 5000,Tiffany Barnikis�,
+ED,EDFE,W,Child Development & Health,,,,,,,,,,,
+,,,1100 �3.00�M�,EN,LECT�,01�,,T,8:30,110,Keele,DB 0010,Lucy Angus�,
+,,,,,TUTR�,01�,D83R02�,T,10:30,50,Keele,MC 113,,
+,,,,,TUTR�,02�,D83R03�,T,10:30,50,Keele,MC 211,,
+,,,,,TUTR�,03�,D83R04�,T,10:30,50,Keele,VC 102,,
+,,,,,TUTR�,04�,D83R05�,T,10:30,50,Keele,VC 108,,
+,,,1100 �3.00�N�,EN,LECT�,01�,,T,8:30,110,Keele,DB 0006,Aziz Guzel�,
+,,,,,TUTR�,01�,U30C02�,T,10:30,50,Keele,VC 119,,
+,,,,,TUTR�,02�,U30C03�,T,10:30,50,Keele,MC 212,,
+,,,,,TUTR�,03�,U30C04�,T,10:30,50,Keele,VC 107A,,
+,,,,,TUTR�,04�,U30C05�,T,10:30,50,Keele,VC 118,,
+,,,1100 �3.00�O�,EN,LECT�,01�,R68T01�,T,8:30,170,Keele,DB 3069,,
+ED,EDFE,F,Child Development and Health,,,,,,,,,,,
+,,,1100 �3.00�G�,FR,LECT�,01�,X69D01�,M,12:00,170,Glendon,YH 172,Asha Nagpal�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDFE,F,Adolescent Development & Health,,,,,,,,,,,
+,,,1101 �3.00�A�,EN,LECT�,01�,,M,8:30,110,Keele,CLH G,Lorin Schwarz�,
+,,,,,TUTR�,01�,Z70G02�,M,10:30,50,Keele,WC 030,,
+,,,,,TUTR�,02�,Z70G03�,M,10:30,50,Keele,VC 119,,
+,,,,,TUTR�,03�,Z70G04�,M,10:30,50,Keele,MC 111,,
+,,,,,TUTR�,04�,Z70G05�,M,10:30,50,Keele,MC 112,,
+,,,,,TUTR�,05�,Z70G06�,M,10:30,50,Keele,MC 113,,
+,,,,,TUTR�,06�,Z70G07�,M,10:30,50,Keele,ACE 008,,
+,,,1101 �3.00�B�,EN,LECT�,01�,,M,8:30,110,Keele,R S137,Stephen Anthony Gaetz�,
+,,,,,TUTR�,01�,X17P02�,M,10:30,50,Keele,WC 117,,
+,,,,,TUTR�,02�,X17P03�,M,10:30,50,Keele,VC 107A,,
+,,,,,TUTR�,03�,X17P04�,M,10:30,50,Keele,VC 104,,
+,,,,,TUTR�,04�,X17P05�,M,10:30,50,Keele,VC 102,,
+,,,,,TUTR�,05�,X17P06�,M,10:30,50,Keele,ACE 006,,
+,,,,,TUTR�,06�,X17P07�,M,10:30,50,Keele,DB 3140,,
+,,,1101 �3.00�C�,EN,LECT�,01�,S55S01�,M,8:30,170,Keele,FC 203,Aziz Guzel�,
+,,,1101 �3.00�U�,EN,LECT�,01�,B64B01�,T,8:30,170,Catholic Education Centre,��,Aziz Guzel�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDFE,F,Adolescent Development & Health,,,,,,,,,,,
+,,,1101 �3.00�G�,FR,LECT�,01�,S11J01�,M,12:00,170,Glendon,YH 172,Asha Nagpal�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDFE,F,"Inclusion, Disabilities and Education",,,,,,,,,,,
+,,,1300 �3.00�A�,EN,LECT�,01�,G87P01�,M,8:30,170,Keele,DB 3069,Golriz Karoubi�,
+,,,1300 �3.00�B�,EN,LECT�,01�,A34B01�,M,11:30,170,Keele,DB 3069,Golriz Karoubi�,
+,,,1300 �3.00�C�,EN,LECT�,01�,Q81J01�,T,8:30,170,Keele,DB 3069,Patrick Darkhor�,
+,,,1300 �3.00�D�,EN,LECT�,01�,K28S01�,T,11:30,170,Keele,MC 050C,Nancy Marshall�,(Backup)�
+,,,1300 �3.00�W�,EN,LECT�,01�,U88U01�,R,8:30,170,Markham,MK 4055,Debbie Stern�,
+,,,1300 �3.00�X�,EN,LECT�,01�,Z35G01�,R,11:30,170,Markham,MK 4055,Debbie Stern�,
+,,,1300 �3.00�Y�,EN,LECT�,01�,H82P01�,R,14:30,170,Markham,MK 5005,Josefina Rueter�,
+,,,1300 �3.00�Z�,EN,LECT�,01�,B29B01�,R,11:30,170,Markham,MK 5005,Josefina Rueter�,
+ED,EDFE,W,"Inclusion, Disabilities and Education",,,,,,,,,,,
+,,,1300 �3.00�M�,EN,LECT�,01�,D75E01�,M,8:30,170,Keele,MC 050C,,
+,,,1300 �3.00�N�,EN,LECT�,01�,U22M01�,M,11:30,170,Keele,DB 3069,Gillian Parekh�,
+,,,1300 �3.00�O�,EN,LECT�,01�,N69V01�,M,14:30,170,Keele,DB 3069,,
+,,,1300 �3.00�P�,EN,LECT�,01�,H16H01�,M,8:30,170,Keele,MC 050B,,
+,,,1300 �3.00�Q�,EN,LECT�,01�,A63Q01�,M,11:30,170,Keele,DB 3144,,(Backup)�
+,,,1300 �3.00�U�,EN,LECT�,01�,R10B01�,T,11:30,170,Catholic Education Centre,��,Nancy Marshall�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+,,,1300 �3.00�V�,EN,LECT�,01�,K57K01�,M,8:30,170,Keele,DB 3069,Patrick Darkhor�,
+ED,EDFE,W,"Inclusion, Disabilities and Education",,,,,,,,,,,
+,,,1300 �3.00�G�,FR,LECT�,01�,E04T01�,T,9:00,170,Glendon,YH A101,Asha Nagpal�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDFE,Y,Foundations of Education & Theory Into Practice,,,,,,,,,,,
+,,,2000 �6.00�A�,EN,TUTR�,01�,P28N02�,F,13:30,50,Keele,VC 103,,
+,,,,,BLEN�,01�,,F,11:30,110,Keele,DB 0006,Andrea Valente�,
+,,,,,TUTR�,02�,P28N03�,F,13:30,50,Keele,MC 112,,
+,,,,,TUTR�,03�,P28N04�,F,13:30,50,Keele,VC 102,,
+,,,,,TUTR�,04�,P28N05�,F,13:30,50,Keele,VC 119,,
+,,,2000 �6.00�B�,EN,TUTR�,01�,X75W02�,F,13:30,50,Keele,VC 104,,
+,,,,,BLEN�,01�,,F,11:30,110,Keele,ACW 004,John Ippolito�,
+,,,,,TUTR�,02�,X75W03�,F,13:30,50,Keele,MC 111,,
+,,,,,TUTR�,03�,X75W04�,F,13:30,50,Keele,VC 107A,,
+,,,,,TUTR�,04�,X75W05�,F,13:30,50,Keele,MC 113,,
+,,,,,TUTR�,05�,X75W06�,F,13:30,50,Keele,FC 109,,
+,,,2000 �6.00�C�,EN,TUTR�,01�,C22X02�,M,16:30,50,Keele,MC 113,,
+,,,,,BLEN�,01�,,M,14:30,110,Keele,ACW 004,Aziz Guzel�,
+,,,,,TUTR�,02�,C22X03�,M,16:30,50,Keele,VC 119,,
+,,,,,TUTR�,03�,C22X04�,M,16:30,50,Keele,VC 102,,
+,,,,,TUTR�,04�,C22X05�,M,16:30,50,Keele,VC 107A,,
+,,,,,TUTR�,05�,C22X06�,M,16:30,50,Keele,MC 111,,
+,,,2000 �6.00�D�,EN,TUTR�,01�,S69Q02�,M,13:30,50,Keele,FC 104,,
+,,,,,BLEN�,01�,,M,11:30,110,Keele,VH D,Lorin Schwarz�,
+,,,,,TUTR�,02�,S69Q03�,M,13:30,50,Keele,FC 108,,
+,,,,,TUTR�,03�,S69Q04�,M,13:30,50,Keele,VC 107A,,
+,,,,,TUTR�,04�,S69Q05�,M,13:30,50,Keele,CFA 312,,
+,,,,,TUTR�,05�,S69Q06�,M,13:30,50,Keele,VC 106,,
+,,,2000 �6.00�E�,EN,BLEN�,01�,Y15F01�,F,11:30,170,Keele,FC 203,Alyssa Racco�,
+,,,2000 �6.00�F�,EN,BLEN�,01�,E62Z01�,M,11:30,170,Keele,DB 3072,Aziz Guzel�,
+,,,2000 �6.00�G�,EN,BLEN�,01�,M16C01�,M,9:00,170,Glendon,YH 172,Asha Nagpal�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+,,,2000 �6.00�H�,EN,BLEN�,01�,V09W01�,M,14:30,170,Keele,DB 3072,Jack Cecillon�,
+,,,2000 �6.00�W�,EN,BLEN�,01�,Y52K01�,W,8:30,170,Markham,MK 5000,Jacqui Traverse-Thomas�,
+,,,2000 �6.00�X�,EN,BLEN�,01�,E99T01�,W,8:30,170,Markham,MK 4055,Jack Cecillon�,
+,,,2000 �6.00�Y�,EN,BLEN�,01�,V46E01�,W,11:30,170,Markham,MK 5000,Joy Mannette�,
+,,,2000 �6.00�Z�,EN,BLEN�,01�,Z93N01�,W,11:30,170,Markham,MK 5010,Zuhra Abawi�,
+ED,EDFE,F,Inquiries Into Learning,,,,,,,,,,,
+,,,2100 �3.00�A�,EN,LECT�,01�,,W,8:30,110,Keele,ACW 006,Elena Rakitskaya�,
+,,,,,TUTR�,01�,P57F02�,W,10:30,50,Keele,WC 117,,
+,,,,,TUTR�,02�,P57F03�,W,10:30,50,Keele,VC 119,,
+,,,,,TUTR�,03�,P57F04�,W,10:30,50,Keele,VC 107A,,
+,,,,,TUTR�,04�,P57F05�,W,10:30,50,Keele,MC 113,,
+,,,,,TUTR�,05�,P57F06�,W,10:30,50,Keele,��,,(Backup)�
+,,,2100 �3.00�B�,EN,LECT�,01�,,W,11:30,110,Keele,ACW 005,Elena Rakitskaya�,
+,,,,,TUTR�,01�,J04Z02�,W,13:30,50,Keele,WC 117,,
+,,,,,TUTR�,02�,J04Z03�,W,13:30,50,Keele,R S507,,
+,,,,,TUTR�,03�,J04Z04�,W,13:30,50,Keele,VC 108,,
+,,,,,TUTR�,04�,J04Z05�,W,13:30,50,Keele,FC 104,,
+,,,2100 �3.00�C�,EN,LECT�,01�,,W,14:30,110,Keele,ACW 004,Qiang Zha�,
+,,,,,TUTR�,01�,C51A02�,W,16:30,50,Keele,WC 117,,
+,,,,,TUTR�,02�,C51A03�,W,16:30,50,Keele,VC 102,,
+,,,,,TUTR�,03�,C51A04�,W,16:30,50,Keele,MC 111,,
+,,,,,TUTR�,04�,C51A05�,W,16:30,50,Keele,MC 112,,
+,,,2100 �3.00�R�,EN,LECT�,01�,S98X01�,M,9:00,170,Toronto Metropolitan Univ,��,Meezan Eglen�,"Reserved for the TMU BEd cohort. Course will be held at TMU campus. For more information, check the�map."
+,,,,,,,,,,,,,,
+,,,2100 �3.00�U�,EN,LECT�,01�,V88M01�,R,14:30,170,Catholic Education Centre,��,Meezan Eglen�,
+ED,EDFE,W,Inquiries Into Learning,,,,,,,,,,,
+,,,2100 �3.00�M�,EN,LECT�,01�,,W,8:30,110,Keele,SLH A,Asha Nagpal�,
+,,,,,TUTR�,01�,M45R02�,W,10:30,50,Keele,VC 107A,,
+,,,,,TUTR�,02�,M45R03�,W,10:30,50,Keele,MC 211,,
+,,,,,TUTR�,03�,M45R04�,W,10:30,50,Keele,VC 119,,
+,,,,,TUTR�,04�,M45R05�,W,10:30,50,Keele,MC 113,,
+,,,,,TUTR�,05�,M45R06�,W,10:30,50,Keele,WC 117,,(Backup)�
+,,,2100 �3.00�N�,EN,LECT�,01�,,W,14:30,110,Keele,ACW 005,Qiang Zha�,
+,,,,,TUTR�,01�,F92D02�,W,16:30,50,Keele,MC 111,,
+,,,,,TUTR�,02�,F92D03�,W,16:30,50,Keele,ACE 006,,
+,,,,,TUTR�,03�,F92D04�,W,16:30,50,Keele,ACE 010,,
+,,,,,TUTR�,04�,F92D05�,W,16:30,50,Keele,VC 118,,
+ED,EDFE,F,Inquiries into Learning,,,,,,,,,,,
+,,,2100 �3.00�G�,FR,LECT�,01�,P86U01�,W,9:00,170,Glendon,YH 172,Asha Nagpal�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDFE,F,Theory Into Practice,,,,,,,,,,,
+,,,2200 �3.00�R�,EN,LECT�,01�,R18Z01�,M,12:00,170,Toronto Metropolitan Univ,��,Farah Virani�,"Reserved for the TMU BEd cohort. Course will be held at TMU campus. For more information, check the�map."
+,,,,,,,,,,,,,,
+ED,EDFE,F,Teaching for Diverse & Equitable Classrooms in Ontario,,,,,,,,,,,
+,,,3100 �3.00�A�,EN,LECT�,01�,U51E01�,R,8:30,170,Keele,MC 050C,Janette Holmes�,
+,,,3100 �3.00�B�,EN,LECT�,01�,N98N01�,R,8:30,170,Keele,MC 050B,Farah Virani�,
+,,,3100 �3.00�C�,EN,LECT�,01�,H45W01�,R,11:30,170,Keele,MC 050C,Janette Holmes�,
+,,,3100 �3.00�D�,EN,LECT�,01�,A92X01�,R,11:30,170,Keele,MC 050B,Stephanie Fearon�,
+,,,3100 �3.00�E�,EN,LECT�,01�,R39Q01�,R,14:30,170,Keele,MC 050B,Cecile Robertson,
+,,,,,,,,,,,,,Katherine Barron�,
+,,,3100 �3.00�F�,EN,LECT�,01�,K86C01�,F,11:30,170,Keele,DB 3144,Manchari Paranthahan�,
+,,,3100 �3.00�G�,EN,LECT�,01�,E33Y01�,W,12:00,170,Glendon,YH 172,Cecile Robertson�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+,,,3100 �3.00�H�,EN,LECT�,01�,U80T01�,F,11:30,170,Keele,MC 050C,Janette Holmes�,
+ED,EDFE,W,Teaching for Diverse & Equitable Classrooms in Ontario,,,,,,,,,,,
+,,,3100 �3.00�M�,EN,LECT�,01�,Z27F01�,R,8:30,170,Keele,MC 050A,Janette Holmes�,
+,,,3100 �3.00�N�,EN,LECT�,01�,H74Z01�,R,8:30,170,Keele,MC 050B,Stephanie Fearon�,
+,,,3100 �3.00�O�,EN,LECT�,01�,B21A01�,R,14:30,170,Keele,MC 050A,,
+,,,3100 �3.00�P�,EN,LECT�,01�,R68X01�,R,14:30,170,Keele,MC 050B,Janette Holmes�,
+,,,3100 �3.00�Q�,EN,LECT�,01�,Y15R01�,F,14:30,170,Keele,DB 3069,,(Backup)�
+,,,3100 �3.00�U�,EN,LECT�,01�,E62D01�,R,8:30,170,Catholic Education Centre,��,Farah Virani�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDFE,F,Content Into Practice,,,,,,,,,,,
+,,,3200 �3.00�A�,EN,LECT�,01�,K65A01�,R,8:30,170,Keele,MC 050A,Wahid Khan�,
+,,,3200 �3.00�B�,EN,LECT�,01�,E12J01�,R,8:30,170,Keele,DB 3072,Cecile Robertson�,
+,,,3200 �3.00�C�,EN,LECT�,01�,U59R01�,R,11:30,170,Keele,MC 050A,Wahid Khan�,
+,,,3200 �3.00�D�,EN,LECT�,01�,Z06D01�,R,14:30,170,Keele,MC 050C,Janette Holmes�,
+,,,3200 �3.00�E�,EN,LECT�,01�,H53M01�,R,14:30,170,Keele,MC 050A,Farah Virani�,
+,,,3200 �3.00�G�,EN,LECT�,01�,B00V01�,R,9:00,170,Glendon,YH A104,Mara Reich�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDFE,W,Content Into Practice,,,,,,,,,,,
+,,,3200 �3.00�M�,EN,LECT�,01�,R47G01�,R,11:30,170,Keele,MC 050C,Elena Rakitskaya�,
+,,,3200 �3.00�N�,EN,LECT�,01�,K94P01�,R,11:30,170,Keele,DB 3140,,
+,,,3200 �3.00�O�,EN,LECT�,01�,E41B01�,R,14:30,170,Keele,MC 050C,,
+,,,3200 �3.00�P�,EN,LECT�,01�,U88J01�,R,14:30,170,Keele,DB 3140,,
+,,,3200 �3.00�Q�,EN,LECT�,01�,Z35S01�,F,8:30,170,Keele,WC 030,,
+,,,3200 �3.00�R�,EN,LECT�,01�,H82E01�,M,9:00,170,Toronto Metropolitan Univ,��,Lisa Sandlos�,"Reserved for the TMU BEd cohort. Course will be held at TMU campus. For more information, check the�map."
+,,,,,,,,,,,,,,
+,,,3200 �3.00�S�,EN,LECT�,01�,B29N01�,F,8:30,170,Keele,YL 234,Shyam Patel�,
+,,,3200 �3.00�U�,EN,LECT�,01�,R76V01�,R,11:30,170,Catholic Education Centre,��,Farah Virani�,
+,,,3200 �3.00�V�,EN,LECT�,01�,Y23H01�,F,14:30,170,Keele,DB 3140,,
+ED,EDFE,F,Research Into Practice,,,,,,,,,,,
+,,,4200 �3.00�A�,EN,LECT�,01�,,F,8:30,110,Keele,ACW 004,Elena Rakitskaya�,
+,,,,,TUTR�,01�,E84C02�,F,10:30,50,Keele,MC 050C,,
+,,,,,TUTR�,02�,E84C03�,F,10:30,50,Keele,MC 050B,,
+,,,,,TUTR�,03�,E84C04�,F,10:30,50,Keele,DB 3144,,
+,,,,,TUTR�,04�,E84C05�,F,10:30,50,Keele,WC 030,,
+,,,,,TUTR�,05�,E84C06�,F,10:30,50,Keele,VC 108,,
+,,,4200 �3.00�B�,EN,LECT�,01�,,F,8:30,110,Keele,DB 0010,Rachelle Campigotto�,
+,,,,,TUTR�,01�,V31K02�,F,10:30,50,Keele,VC 107A,,
+,,,,,TUTR�,02�,V31K03�,F,10:30,50,Keele,VC 102,,
+,,,,,TUTR�,03�,V31K04�,F,10:30,50,Keele,MC 113,,
+,,,,,TUTR�,04�,V31K05�,F,10:30,50,Keele,VC 119,,
+ED,EDFE,W,Research Into Practice,,,,,,,,,,,
+,,,4200 �3.00�G�,EN,LECT�,01�,Z78T01�,R,9:00,170,Glendon,YH A104,Asha Nagpal�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+,,,4200 �3.00�M�,EN,LECT�,01�,,R,11:30,110,Keele,CLH F,Rachelle Campigotto�,
+,,,,,TUTR�,01�,X25F02�,R,13:30,50,Keele,FC 109,,
+,,,,,TUTR�,02�,X25F03�,R,13:30,50,Keele,VC 108,,
+,,,,,TUTR�,03�,X25F04�,R,13:30,50,Keele,SC 216,,
+,,,,,TUTR�,04�,X25F05�,R,13:30,50,Keele,SC 212,,
+,,,,,TUTR�,05�,X25F06�,R,13:30,50,Keele,MC 111,,
+,,,,,TUTR�,06�,X25F07�,R,13:30,50,Keele,MC 213,,
+,,,,,TUTR�,07�,X25F08�,R,13:30,50,Keele,��,,(Backup)�
+,,,4200 �3.00�N�,EN,LECT�,01�,,R,11:30,110,Keele,CLH G,,
+,,,,,TUTR�,01�,B72Z02�,R,13:30,50,Keele,SC 211,,
+,,,,,TUTR�,02�,B72Z03�,R,13:30,50,Keele,CC 106,,
+,,,,,TUTR�,03�,B72Z04�,R,13:30,50,Keele,VC 118,,
+,,,,,TUTR�,04�,B72Z05�,R,13:30,50,Keele,VC 106,,
+,,,,,TUTR�,05�,B72Z06�,R,13:30,50,Keele,MC 109,,
+,,,,,TUTR�,06�,B72Z07�,R,13:30,50,Keele,ACE 010,,
+,,,4200 �3.00�U�,EN,LECT�,01�,S19W01�,F,8:30,170,Catholic Education Centre,��,Aziz Guzel�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDFR,W,Teaching & Learning French in an Immersion Context,,,,,,,,,,,
+,,,2000 �3.00�G�,FR,LECT�,01�,Y66X01�,M,12:00,170,Glendon,YH 172,Muriel P�guret�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDFR,F,Teaching & Learning French in a Core French Context,,,,,,,,,,,
+,,,3000 �3.00�G�,FR,LECT�,01�,W90C01�,R,12:00,170,Glendon,YH A101,Asha Nagpal�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDIN,F,Integration Through Arts,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,F13R01�,F,11:30,170,Keele,YL 234,Tanya Berg�,
+,,,4000 �3.00�B�,EN,LECT�,01�,V60C01�,F,11:30,170,Keele,MC 050A,Samara Thompson�,
+,,,4000 �3.00�C�,EN,LECT�,01�,P07Y01�,F,11:30,170,Keele,MC 050B,Lisa Sandlos�,
+,,,4000 �3.00�D�,EN,LECT�,01�,X54U01�,F,14:30,170,Keele,MC 050A,Samara Thompson�,
+,,,4000 �3.00�E�,EN,LECT�,01�,C01G01�,F,14:30,170,Keele,WC 030,Lisa Sandlos�,
+,,,4000 �3.00�F�,EN,LECT�,01�,S48Z01�,W,11:30,170,Keele,DB 3140,Samara Thompson�,
+,,,4000 �3.00�H�,EN,LECT�,01�,Y95A01�,W,14:30,170,Keele,DB 3144,Samara Thompson�,(Backup)�
+,,,4000 �3.00�U�,EN,LECT�,01�,F42J01�,R,8:30,170,Catholic Education Centre,��,Tanya Berg�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDIN,W,Integration Through Arts,,,,,,,,,,,
+,,,4000 �3.00�G�,EN,LECT�,01�,V89R01�,R,12:00,170,Glendon,YH A101,Lisa Sandlos�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+,,,4000 �3.00�R�,EN,LECT�,01�,P36D01�,M,12:00,170,Toronto Metropolitan Univ,��,Samara Thompson�,"Reserved for the TMU BEd cohort. Course will be held at TMU campus. For more information, check the�map."
+,,,,,,,,,,,,,,
+ED,EDIS,F,New Media Literacies and Culture,,,,,,,,,,,
+,,,3610 �3.00�A�,EN,LECT�,01�,Y01X01�,T,8:30,170,Keele,MC 157AB,Andrew McConnell�,
+,,,3610 �3.00�B�,EN,LECT�,01�,E48R01�,T,8:30,170,Keele,YL 234,Timothy Martin�,(Backup)�
+,,,3610 �3.00�C�,EN,LECT�,01�,U95C01�,T,11:30,170,Keele,MC 050A,Artina Voz�,
+,,,3610 �3.00�D�,EN,LECT�,01�,Z42Y01�,T,11:30,170,Keele,YL 234,Kurt Thumlert�,
+,,,3610 �3.00�E�,EN,LECT�,01�,C08K01�,T,8:30,170,Keele,WC 118,Artina Voz�,
+ED,EDJI,F,Language & Literacy in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,1000 �3.00�U�,EN,LECT�,01�,Y58S01�,T,11:30,170,Catholic Education Centre,��,Eleanor Johnston�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDJI,W,Language & Literacy in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,1000 �3.00�M�,EN,LECT�,01�,F05E01�,W,8:30,170,Keele,YL 234,Christina Grant�,
+,,,1000 �3.00�N�,EN,LECT�,01�,V52M01�,W,14:30,170,Keele,MC 050A,,(Backup)�
+ED,EDJI,F,Language and Literacy in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,1000 �3.00�G�,FR,LECT�,01�,Z99V01�,T,9:00,170,Glendon,YH A002,Mara Reich�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDJI,F,Mathematics in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,1100 �3.00�J�,EN,LECT�,01�,N77Y01�,W,11:30,170,Keele,DB 3144,Wahid Khan�,
+,,,1100 �3.00�K�,EN,LECT�,01�,H24U01�,W,14:30,170,Keele,FC 203,Josefina Rueter�,
+ED,EDJI,W,Mathematics in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,1100 �3.00�U�,EN,LECT�,01�,A71G01�,T,8:30,170,Catholic Education Centre,��,Parinaz Nikfarjam�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDJI,W,Mathematics in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,1100 �3.00�G�,FR,LECT�,01�,X47E01�,T,15:00,170,Glendon,��,Karen Devonish-Mazzotta�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDJI,F,Science & Technology in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,2000 �3.00�A�,EN,LECT�,01�,Y44J01�,W,8:30,170,Keele,MC 157AB,Rachelle Campigotto�,
+,,,2000 �3.00�B�,EN,LECT�,01�,E91S01�,W,11:30,170,Keele,MC 157AB,Patrick Darkhor�,(Backup)�
+,,,2000 �3.00�U�,EN,LECT�,01�,V38D01�,M,11:30,170,Catholic Education Centre,��,Rachelle Campigotto�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDJI,F,Science and Technology in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,2000 �3.00�G�,FR,LECT�,01�,Z85M01�,T,12:00,170,Glendon,YH 172,Josefina Rueter�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDJI,FB,Social Studies & Culture in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,3000 �1.50�U�,EN,LECT�,01�,C59N01�,R,11:30,170,Catholic Education Centre,��,Eleanor Johnston�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDJI,WA,Social Studies & Culture in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,3000 �1.50�G�,EN,LECT�,01�,T06V01�,F,9:00,170,Glendon,YH A104,,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+,,,3000 �1.50�M�,EN,LECT�,01�,M53H01�,W,14:30,170,Keele,DB 3140,,
+ED,EDJI,WB,Social Studies & Culture in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,3000 �1.50�N�,EN,LECT�,01�,G00Q01�,W,14:30,170,Keele,DB 3140,Eleanor Johnston�,
+ED,EDJI,FA,Physical Education in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,3100 �1.50�U�,EN,BLEN�,01�,B94N01�,R,11:30,170,Catholic Education Centre,��,Samara Thompson�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDJI,WA,Physical Education in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,3100 �1.50�M�,EN,BLEN�,01�,S41V01�,W,14:30,170,Keele,��,Wahid Khan�,
+ED,EDJI,WB,Physical Education in the Junior-Intermediate Divisions,,,,,,,,,,,
+,,,3100 �1.50�G�,EN,BLEN�,01�,Y88H01�,F,9:00,170,Glendon,PFH MNGYM,Fred Audoin�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+,,,3100 �1.50�N�,EN,BLEN�,01�,F35Q01�,W,14:30,170,Keele,��,Wahid Khan�,
+ED,EDPJ,F,Language & Literacy in the Primary-Junior Divisions,,,,,,,,,,,
+,,,1000 �3.00�A�,EN,LECT�,01�,V09Y01�,M,8:30,170,Keele,MC 050A,Kenisha Bynoe�,
+,,,1000 �3.00�B�,EN,LECT�,01�,Z56U01�,M,11:30,170,Keele,MC 050A,Kenisha Bynoe�,
+,,,1000 �3.00�C�,EN,LECT�,01�,X03G01�,T,8:30,170,Keele,MC 050A,Cherry Chan�,(Backup)�
+,,,1000 �3.00�D�,EN,LECT�,01�,B50P01�,T,11:30,170,Keele,DB 3069,Mary Ott�,
+,,,1000 �3.00�E�,EN,LECT�,01�,H28K01�,T,11:30,170,Keele,DB 3144,Cherry Chan�,
+,,,1000 �3.00�U�,EN,LECT�,01�,R97A01�,T,11:30,170,Catholic Education Centre,��,Eleanor Johnston�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+,,,1000 �3.00�W�,EN,LECT�,01�,R76J01�,M,11:30,170,Markham,MK 4055,Emily Burgis�,
+,,,1000 �3.00�X�,EN,LECT�,01�,Y23S01�,M,8:30,170,Markham,MK 4055,Emily Burgis�,
+,,,1000 �3.00�Y�,EN,LECT�,01�,E70E01�,M,11:30,170,Markham,MK 5005,Virginia Grimaldi�,
+,,,1000 �3.00�Z�,EN,LECT�,01�,V17M01�,M,14:30,170,Markham,MK 5005,Virginia Grimaldi�,
+ED,EDPJ,F,Language & Literacy in the Primary-Junior Divisions,,,,,,,,,,,
+,,,1000 �3.00�G�,FR,LECT�,01�,Z05G01�,T,9:00,170,Glendon,YH A002,Mara Reich�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDPJ,F,Mathematics in the Primary-Junior Divisions,,,,,,,,,,,
+,,,1100 �3.00�A�,EN,LECT�,01�,F64X01�,T,14:30,170,Keele,DB 3144,Parinaz Nikfarjam�,
+,,,1100 �3.00�B�,EN,LECT�,01�,W11Q01�,M,14:30,170,Keele,DB 3069,Parinaz Nikfarjam�,(Backup)�
+,,,1100 �3.00�C�,EN,LECT�,01�,P58C01�,T,8:30,170,Keele,DB 3140,Golriz Karoubi�,
+,,,1100 �3.00�D�,EN,LECT�,01�,J05Y01�,T,11:30,170,Keele,DB 3140,Golriz Karoubi�,
+,,,1100 �3.00�E�,EN,LECT�,01�,Z56X01�,T,8:30,170,Keele,FC 203,Parinaz Nikfarjam�,
+,,,1100 �3.00�W�,EN,LECT�,01�,B00J01�,R,11:30,170,Markham,MK 5000,Zuhra Abawi�,
+,,,1100 �3.00�X�,EN,LECT�,01�,R47R01�,R,8:30,170,Markham,MK 5000,Zuhra Abawi�,
+,,,1100 �3.00�Y�,EN,LECT�,01�,K94D01�,R,11:30,170,Markham,MK 5010,Parinaz Nikfarjam�,
+,,,1100 �3.00�Z�,EN,LECT�,01�,E41M01�,R,14:30,170,Markham,MK 5010,Parinaz Nikfarjam�,
+ED,EDPJ,W,Mathematics in the Primary-Junior Divisions,,,,,,,,,,,
+,,,1100 �3.00�U�,EN,LECT�,01�,C52U01�,T,8:30,170,Catholic Education Centre,��,Parinaz Nikfarjam�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDPJ,W,Mathematics in the Primary-Junior Divisions,,,,,,,,,,,
+,,,1100 �3.00�G�,FR,LECT�,01�,M75G01�,T,15:00,170,Glendon,��,Karen Devonish-Mazzotta�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDPJ,F,Science & Technology in the Primary-Junior DIvisions,,,,,,,,,,,
+,,,2000 �3.00�R�,EN,LECT�,01�,V82B01�,T,9:00,170,Toronto Metropolitan Univ,��,Mariam El-Ma�Asarany�,"Reserved for the TMU BEd cohort. Course will be held at TMU campus. For more information, check the�map."
+,,,,,,,,,,,,,,
+,,,2000 �3.00�U�,EN,LECT�,01�,P29K01�,M,11:30,170,Catholic Education Centre,��,Rachelle Campigotto�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDPJ,W,Science & Technology in the Primary-Junior DIvisions,,,,,,,,,,,
+,,,2000 �3.00�M�,EN,LECT�,01�,X76T01�,T,11:30,170,Keele,DB 3069,Patrick Darkhor�,
+,,,2000 �3.00�N�,EN,LECT�,01�,C23F01�,T,14:30,170,Keele,DB 3069,,
+,,,2000 �3.00�O�,EN,LECT�,01�,S70N01�,M,8:30,170,Keele,MC 050A,,(Backup)�
+,,,2000 �3.00�P�,EN,LECT�,01�,M17W01�,M,11:30,170,Keele,MC 050A,Rachelle Campigotto�,
+,,,2000 �3.00�W�,EN,LECT�,01�,E12U01�,M,11:30,170,Markham,MK 5000,,
+,,,2000 �3.00�X�,EN,LECT�,01�,U59F01�,M,8:30,170,Markham,MK 5000,Zuhra Abawi�,
+,,,2000 �3.00�Y�,EN,LECT�,01�,Z06Z01�,M,11:30,170,Markham,MK 5005,Emily Burgis�,
+,,,2000 �3.00�Z�,EN,LECT�,01�,H53A01�,M,14:30,170,Markham,MK 5000,,
+ED,EDPJ,F,Science & Technology in the Primary-Junior Divisions,,,,,,,,,,,
+,,,2000 �3.00�G�,FR,LECT�,01�,G22P01�,T,12:00,170,Glendon,YH 172,Josefina Rueter�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDPJ,FB,Social Studies & Culture in the Primary-Junior Divisions,,,,,,,,,,,
+,,,3000 �1.50�U�,EN,LECT�,01�,X83M01�,R,11:30,170,Catholic Education Centre,��,Eleanor Johnston�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDPJ,WA,Social Studies & Culture in the Primary-Junior Divisions,,,,,,,,,,,
+,,,3000 �1.50�G�,EN,LECT�,01�,C30V01�,F,9:00,170,Glendon,YH A104,,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+,,,3000 �1.50�M�,EN,LECT�,01�,S77G01�,F,11:30,170,Keele,MC 050C,,(Backup)�
+,,,3000 �1.50�N�,EN,LECT�,01�,M24P01�,R,8:30,170,Keele,WC 030,Eleanor Johnston�,
+ED,EDPJ,WB,Social Studies & Culture in the Primary-Junior Divisions,,,,,,,,,,,
+,,,3000 �1.50�O�,EN,LECT�,01�,F71B01�,F,11:30,170,Keele,MC 050C,,
+,,,3000 �1.50�P�,EN,LECT�,01�,W18J01�,R,8:30,170,Keele,WC 030,,
+,,,3000 �1.50�Q�,EN,LECT�,01�,P65S01�,R,11:30,170,Keele,WC 030,Eleanor Johnston�,
+,,,3000 �1.50�R�,EN,LECT�,01�,J12E01�,T,8:30,170,Keele,WC 030,Eleanor Johnston�,Reserved for the TMU BEd cohort. Course will be held at Keele campus.
+,,,,,,,,,,,,,,
+ED,EDPJ,FA,Physical Education in the Primary-Junior Divisions,,,,,,,,,,,
+,,,3100 �1.50�U�,EN,BLEN�,01�,S99F01�,R,11:30,170,Catholic Education Centre,��,Samara Thompson�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.?�
+,,,,,,,,,,,,,,
+ED,EDPJ,WA,Physical Education in the Primary-Junior Divisions,,,,,,,,,,,
+,,,3100 �1.50�M�,EN,BLEN�,01�,M46Z01�,F,11:30,170,Keele,��,,
+,,,3100 �1.50�N�,EN,BLEN�,01�,F93A01�,R,8:30,170,Keele,��,Wahid Khan�,
+,,,3100 �1.50�O�,EN,BLEN�,01�,W40X01�,R,11:30,170,Keele,��,,
+,,,3100 �1.50�R�,EN,BLEN�,01�,P87R01�,T,8:30,170,Keele,��,Samara Thompson�,Reserved for the TMU BEd cohort. Course will be held at Keele campus.
+,,,,,,,,,,,,,,
+ED,EDPJ,WB,Physical Education in the Primary-Junior Divisions,,,,,,,,,,,
+,,,3100 �1.50�G�,EN,BLEN�,01�,J34D01�,F,9:00,170,Glendon,PFH MNGYM,Fred Audoin�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+,,,3100 �1.50�P�,EN,BLEN�,01�,C81M01�,F,11:30,170,Keele,��,,(Backup)�
+,,,3100 �1.50�Q�,EN,BLEN�,01�,T28U01�,R,8:30,170,Keele,��,Wahid Khan�,
+ED,EDPR,Y,Studies in Communities and Their Schools,,,,,,,,,,,
+,,,1000 �3.00�A�,EN,LECT�,01�,P35V01�,R,8:30,170,Keele,DB 3069,Kenisha Bynoe�,"Class meets on September 4, September 18, October 2, October 30, November 13, November 27, January 8, January 22, February 5, March 5, March 19, and April 2."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�B�,EN,LECT�,01�,X82H01�,R,8:30,170,Keele,DB 3069,Kenisha Bynoe�,"Class meets on September 11, September 25, October 9, October 23, November 6, November 20, January 15, January 29, February 12, February 26, March 12, and March 26."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�C�,EN,LECT�,01�,C29Q01�,R,11:30,170,Keele,DB 3069,Kenisha Bynoe�,"Class meets on September 4, September 18, October 2, October 30, November 13, November 27, January 8, January 22, February 5, March 5, March 19, and April 2."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�D�,EN,LECT�,01�,M52C01�,R,11:30,170,Keele,DB 3069,Kenisha Bynoe�,"Class meets on September 11, September 25, October 9, October 23, November 6, November 20, January 15, January 29, February 12, February 26, March 12, and March 26."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�E�,EN,LECT�,01�,F99Y01�,R,11:30,170,Keele,DB 3072,Golriz Karoubi�,"Class meets on September 4, September 18, October 2, October 30, November 13, November 27, January 8, January 22, February 5, March 5, March 19 and April 2."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�G�,EN,LECT�,01�,S76B01�,R,12:00,170,Glendon,YH 129,Karen Devonish-Mazzotta�,"Class meets on September 11, September 25, October 9, October 23, November 6, November 20, January 15, January 29, February 12, February 26, March 12, and March 26."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�H�,EN,LECT�,01�,M23K01�,T,14:30,170,Keele,MC 050A,Wahid Khan�,"Class meets on September 9, September 23, October 7, October 21, November 4, November 18, January 6, January 20, February 3, March 3, March 17, and March 31."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�I�,EN,LECT�,01�,W46T01�,T,14:30,170,Keele,MC 050A,Wahid Khan�,"Class meets on September 16, September 30, October 28, November 11, November 25, December 2, January 13, January 27, February 10, February 24, March 10, and March 24."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�J�,EN,LECT�,01�,F70T01�,W,8:30,170,Keele,DB 3069,Andrew McConnell�,"Class meets on September 3, September 17, October 1, October 29, November 12, November 26, January 7, January 21, February 4, March 4, March 18, and April 1."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�K�,EN,LECT�,01�,W17E01�,W,8:30,170,Keele,DB 3069,Andrew McConnell�,"Class meets on September 10, September 24, October 8, October 22, November 5, November 19, January 14, January 28, February 11, February 25, March 11, and March 25."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�L�,EN,LECT�,01�,P64N01�,W,14:30,170,Keele,YL 234,Golriz Karoubi�,"Class meets on September 3, September 17, October 1, October 29, November 12, November 26, January 7, January 21, February 4, March 4, March 18, and April 1."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�M�,EN,LECT�,01�,J11W01�,W,14:30,170,Keele,YL 234,Golriz Karoubi�,"Class meets on September 10, September 24, October 8, October 22, November 5, November 19, January 14, January 28, February 11, February 25, March 11, and March 25."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�N�,EN,LECT�,01�,P93F01�,W,14:30,170,Keele,MC 157AB,Janette Holmes�,"Class meets on September 3, September 17, October 1, October 29, November 12, November 26, January 7, January 21, February 4, March 4, March 18, and April 1."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�O�,EN,LECT�,01�,J40Z01�,W,14:30,170,Keele,MC 157AB,Janette Holmes�,"Class meets on September 10, September 24, October 8, October 22, November 5, November 19, January 14, January 28, February 11, February 25, March 11, and March 25."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�R�,EN,LECT�,01�,C58X01�,F,12:00,170,Toronto Metropolitan Univ,��,Josefina Rueter�,"Class meets on September 12, September 26, October 10, October 24, November 7, November 21, January 16, January 30, February 13, February 27, March 13, and March 27."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�U�,EN,LECT�,01�,T05Q01�,W,8:30,170,Catholic Education Centre,��,Debbie Stern�,"Class meets on September 10, September 24, October 8, October 22, November 5, November 19, January 14, January 28, February 11, February 25, March 11, and March 25."
+,,,,,,,,,,,,,,
+,,,1000 �3.00�W�,EN,PRAC�,01�,B87X01�,W,11:30,170,Markham,MK 5005,Emily Burgis�,
+,,,1000 �3.00�X�,EN,PRAC�,01�,S34Q01�,W,11:30,170,Markham,��,Emily Burgis�,
+,,,1000 �3.00�Y�,EN,PRAC�,01�,Y81C01�,W,14:30,170,Markham,MK 5010,Zuhra Abawi�,
+,,,1000 �3.00�Z�,EN,PRAC�,01�,F28Y01�,W,14:30,170,Markham,��,Zuhra Abawi�,
+ED,EDPR,F,Practicum,,,,,,,,,,,
+,,,2000 �3.00�B�,EN,PRAC�,01�,G21S01�,,0:00,0,Keele,��,,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$200.00 - Course Materials�
+ED,EDPR,FW,Practicum,,,,,,,,,,,
+,,,2000 �3.00�A�,EN,PRAC�,01�,W68D01�,,0:00,0,Keele,��,Diane Vetter�,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$200.00 - Course Materials�
+,,,2000 �3.00�R�,EN,PRAC�,01�,Q15M01�,,0:00,0,Toronto Metropolitan Univ,��,,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$200.00 - Course Materials�
+,,,2000 �3.00�U�,EN,PRAC�,01�,J62V01�,,0:00,0,Catholic Education Centre,��,,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$200.00 - Course Materials�
+ED,EDPR,WP,Practicum,,,,,,,,,,,
+,,,2000 �3.00�C�,EN,PRAC�,01�,X40W01�,,0:00,0,Markham,��,,
+ED,EDPR,FW,Practicum,,,,,,,,,,,
+,,,2000 �3.00�G�,FR,PRAC�,01�,D09H01�,,0:00,0,Glendon,��,,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$200.00 - Course Materials�
+ED,EDPR,F,Practicum,,,,,,,,,,,
+,,,3000 �3.00�A�,EN,PRAC�,01�,J33G01�,,0:00,0,Keele,��,,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$250.00 - Course Materials�
+,,,3000 �3.00�U�,EN,PRAC�,01�,C80P01�,,0:00,0,Catholic Education Centre,��,,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$250.00 - Course Materials�
+ED,EDPR,WP,Practicum,,,,,,,,,,,
+,,,3000 �3.00�R�,EN,PRAC�,01�,T27A01�,,0:00,0,Toronto Metropolitan Univ,��,,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$250.00 - Course Materials�
+ED,EDPR,F,Practicum,,,,,,,,,,,
+,,,3000 �3.00�G�,FR,PRAC�,01�,M74J01�,,0:00,0,Glendon,��,,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$250.00 - Course Materials�
+ED,EDPR,F,Practicum,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,PRAC�,01�,T56P01�,,0:00,0,Keele,��,,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$300.00 - Course Materials�
+ED,EDPR,WP,Practicum,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,PRAC�,01�,N03B01�,,0:00,0,Keele,��,,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$300.00 - Course Materials�
+,,,4000 �3.00�U�,EN,PRAC�,01�,G50K01�,,0:00,0,Catholic Education Centre,��,,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$300.00 - Course Materials�
+ED,EDPR,WP,Practicum,,,,,,,,,,,
+,,,4000 �3.00�G�,FR,PRAC�,01�,W97S01�,,0:00,0,Glendon,��,,"Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements.?�"
+,,,,,,,,,,,,,,$300.00 - Course Materials�
+ED,EDST,F,What Is Education For?,,,,,,,,,,,
+,,,1000 �3.00�A�,EN,LECT�,01�,S05N01�,W,8:30,170,Keele,DB 3144,Farah Virani�,
+,,,1000 �3.00�B�,EN,LECT�,01�,Y52W01�,R,11:30,170,Keele,DB 3140,Lovisa Fung�,Students in the Mathematics for Education program can contact�osp@edu.yorku.ca�in order to enrol in this course.
+,,,,,,,,,,,,,,
+,,,1000 �3.00�C�,EN,LECT�,01�,E99X01�,T,14:30,170,Keele,MC 050B,Mohamed Banda�,
+ED,EDST,W,What Is Education For?,,,,,,,,,,,
+,,,1000 �3.00�M�,EN,LECT�,01�,V46Q01�,R,8:30,170,Keele,MC 050C,Mara Reich�,Students in the Mathematics for Education program can contact�osp@edu.yorku.ca�in order to enrol in this course.
+,,,,,,,,,,,,,,
+,,,1000 �3.00�N�,EN,LECT�,01�,Z93C01�,W,11:30,170,Keele,DB 3140,Mohamed Banda�,
+ED,EDST,F,Situated Learning and Education,,,,,,,,,,,
+,,,1100 �3.00�A�,EN,LECT�,01�,U07G01�,T,11:30,170,Keele,DB 3072,Andrea Valente�,
+,,,1100 �3.00�B�,EN,LECT�,01�,N54P01�,R,8:30,170,Keele,DB 3140,Andrea Valente�,
+,,,1100 �3.00�C�,EN,LECT�,01�,H01B01�,W,11:30,170,Keele,MC 050C,,(Backup)�
+ED,EDST,W,Situated Learning and Education,,,,,,,,,,,
+,,,1100 �3.00�M�,EN,LECT�,01�,A48K01�,R,11:30,170,Keele,DB 3144,,(Backup)�
+,,,1100 �3.00�N�,EN,LECT�,01�,Q95S01�,W,8:30,170,Keele,DB 3144,,
+,,,1100 �3.00�O�,EN,LECT�,01�,K42E01�,T,11:30,170,Keele,YL 234,,
+ED,EDST,F,Place and Learning,,,,,,,,,,,
+,,,1200 �3.00�A�,EN,LECT�,01�,W69A01�,T,8:30,170,Keele,DB 3072,Steven John Alsop�,
+,,,1200 �3.00�B�,EN,LECT�,01�,Q16J01�,W,14:30,170,Keele,DB 3140,Steven John Alsop�,
+,,,1200 �3.00�C�,EN,LECT�,01�,J63S01�,R,14:30,170,Keele,YL 234,John Hupfield�,
+ED,EDST,W,Place and Learning,,,,,,,,,,,
+,,,1200 �3.00�M�,EN,LECT�,01�,D10E01�,R,14:30,170,Keele,DB 3144,,(Backup)�
+,,,1200 �3.00�N�,EN,LECT�,01�,T57M01�,W,14:30,170,Keele,DB 3146,,(Backup)�
+,,,1200 �3.00�O�,EN,LECT�,01�,N04V01�,T,8:30,170,Keele,YL 234,,
+ED,EDST,W,Issues in Indigenous Education,,,,,,,,,,,
+,,,2200 �3.00�M�,EN,LECT�,01�,C16M01�,T,11:30,170,Keele,MC 050C,John Hupfield�,
+ED,EDST,F,Multilingualism and multiculturalism in educational contexts,,,,,,,,,,,
+,,,2450 �3.00�A�,EN,LECT�,01�,H81H01�,M,11:30,170,Keele,MC 157AB,Andrea Valente�,
+ED,EDST,W,Multilingualism and multiculturalism in educational contexts,,,,,,,,,,,
+,,,2450 �3.00�M�,EN,LECT�,01�,B28Q01�,T,14:30,170,Keele,YL 234,,
+ED,EDST,F,Cultural Representations of Education,,,,,,,,,,,
+,,,2500 �3.00�A�,EN,LECT�,01�,G51H01�,M,8:30,170,Keele,DB 3144,Elena Chou�,
+ED,EDST,W,Cultural Representations of Education,,,,,,,,,,,
+,,,2500 �3.00�M�,EN,LECT�,01�,W98P01�,R,11:30,170,Keele,WC 030,Lucy Angus�,
+ED,EDST,F,Non-Western Perspectives on Education and Learning,,,,,,,,,,,
+,,,2700 �3.00�A�,EN,LECT�,01�,Y08B01�,R,11:30,170,Keele,DB 3144,Roopa Trilokekar�,Note that this course will be delivered in a blended format.
+,,,,,,,,,,,,,,
+ED,EDST,W,Non-Western Perspectives on Education and Learning,,,,,,,,,,,
+,,,2700 �3.00�M�,EN,LECT�,01�,E55K01�,W,11:30,170,Keele,YL 234,,
+ED,EDST,F,Recreation and Education,,,,,,,,,,,
+,,,3100 �3.00�A�,EN,LECT�,01�,R75B01�,T,14:30,170,Keele,DB 3072,Samara Thompson�,
+ED,EDST,W,Recreation and Education,,,,,,,,,,,
+,,,3100 �3.00�M�,EN,LECT�,01�,Y22K01�,M,14:30,170,Keele,MC 050C,,
+ED,EDST,F,Apprenticeship Learning and Learning Communities,,,,,,,,,,,
+,,,3200 �3.00�A�,EN,LECT�,01�,Cancelled,,,,,,,
+ED,EDST,W,Apprenticeship Learning and Learning Communities,,,,,,,,,,,
+,,,3200 �3.00�M�,EN,LECT�,01�,V16E01�,R,11:30,170,Keele,YL 234,,
+ED,EDST,F,Policy and Public Educational Institutions,,,,,,,,,,,
+,,,3400 �3.00�A�,EN,LECT�,01�,Z63N01�,T,11:30,170,Keele,MC 050B,Parinaz Nikfarjam�,
+ED,EDST,W,Policy and Public Educational Institutions,,,,,,,,,,,
+,,,3400 �3.00�M�,EN,LECT�,01�,X10W01�,M,14:30,170,Keele,WC 030,Theresa G Shanahan�,
+ED,EDST,F,Introduction to Educational Development,,,,,,,,,,,
+,,,3500 �3.00�A�,EN,ONLN�,01�,Q23C01�,W,8:30,170,Keele,��,Celia Popovic�,
+ED,EDST,W,Introduction to Educational Development,,,,,,,,,,,
+,,,3500 �3.00�M�,EN,ONLN�,01�,J70Y01�,T,14:30,170,Keele,��,Celia Popovic�,
+ED,EDST,F,Teaching & Supporting Teaching Online,,,,,,,,,,,
+,,,3510 �3.00�A�,EN,ONLN�,01�,D17U01�,R,14:30,170,Keele,��,Celia Popovic�,
+ED,EDST,W,Teaching & Supporting Teaching Online,,,,,,,,,,,
+,,,3510 �3.00�M�,EN,ONLN�,01�,T64F01�,W,8:30,170,Keele,��,Celia Popovic�,
+ED,EDST,F,Educating for a Sustainable Future: A Multidisciplinary Approach,,,,,,,,,,,
+,,,3700 �3.00�A�,EN,LECT�,01�,V02S01�,R,14:30,170,Keele,DB 3069,Patrick Darkhor�,
+ED,EDST,W,Educating for a Sustainable Future: A Multidisciplinary Approach,,,,,,,,,,,
+,,,3700 �3.00�M�,EN,LECT�,01�,Z49E01�,W,8:30,170,Keele,WC 030,Patrick Darkhor�,
+,,,3700 �3.00�N�,EN,LECT�,01�,J55Q01�,R,11:30,170,Keele,DB 3146,Patrick Darkhor�,
+ED,EDST,F,Philosophical & Critical Inquiry into Education,,,,,,,,,,,
+,,,3720 �3.00�A�,EN,LECT�,01�,S63U01�,T,14:30,170,Keele,MC 050C,Peter Flaherty�,
+ED,EDST,W,Philosophical & Critical Inquiry into Education,,,,,,,,,,,
+,,,3720 �3.00�M�,EN,LECT�,01�,M10G01�,R,14:30,170,Keele,MC 050A,Peter Flaherty�,
+ED,EDST,F,Education and Human Rights,,,,,,,,,,,
+,,,3730 �3.00�A�,EN,LECT�,01�,Q45B01�,W,8:30,170,Keele,MC 050A,Peter Flaherty�,
+ED,EDST,F,Early and Family Literacy,,,,,,,,,,,
+,,,3760 �3.00�A�,EN,LECT�,01�,Q08H01�,R,8:30,170,Keele,DB 3144,Tiffany Barnikis�,
+ED,EDST,W,Early and Family Literacy,,,,,,,,,,,
+,,,3760 �3.00�M�,EN,LECT�,01�,F57P01�,M,11:30,170,Keele,DB 3140,Karen Armstrong�,
+ED,EDST,F,Research Methods in Educational Studies,,,,,,,,,,,
+,,,3800 �3.00�A�,EN,LECT�,01�,X40Y01�,R,11:30,170,Keele,YL 234,Andrea Valente�,
+,,,3800 �3.00�B�,EN,LECT�,01�,B87U01�,F,14:30,170,Keele,YL 234,Andrea Valente�,
+ED,EDST,W,Research Methods in Educational Studies,,,,,,,,,,,
+,,,3800 �3.00�M�,EN,LECT�,01�,S34F01�,F,14:30,170,Keele,MC 050A,,
+ED,EDST,F,Reflecting On and Interpreting the International Educational Experience,,,,,,,,,,,
+,,,3910 �3.00�A�,EN,LECT�,01�,Q73T01�,T,14:30,170,Keele,YL 234,Roopa Trilokekar�,Note that this course will be delivered in a blended format.
+,,,,,,,,,,,,,,
+ED,EDST,Y,"Experience, Inquire, Contribute I (EIC): Systematic Observation in Context",,,,,,,,,,,
+,,,3999 �6.00�A�,EN,PRAC�,01�,U15T01�,W,14:30,170,Keele,DB 3069,Rachelle Campigotto�,"Course meets on alternating weeks. Please refer to course syllabus.This course involves a placement in a community setting. Students may be required to present a cleared, current Vulnerable Sector Screening from their local police department prior to entering placement."
+,,,,,,,,,,,,,,
+,,,3999 �6.00�B�,EN,PRAC�,01�,N62F01�,W,14:30,170,Keele,DB 3069,Rachelle Campigotto�,"Course meets on alternating weeks. Please refer to course syllabus.This course involves a placement in a community setting. Students may be required to present a cleared, current Vulnerable Sector Screening from their local police department prior to entering placement."
+,,,,,,,,,,,,,,
+,,,3999 �6.00�C�,EN,PRAC�,01�,H09Z01�,M,11:30,170,Keele,YL 234,Alyssa Racco�,"Course meets on alternating weeks. Please refer to course syllabus.This course involves a placement in a community setting. Students may be required to present a cleared, current Vulnerable Sector Screening from their local police department prior to entering placement."
+,,,,,,,,,,,,,,
+ED,EDST,F,Community Organizations and Education,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,B57X01�,M,14:30,170,Keele,DB 3144,Alyssa Racco�,
+ED,EDST,W,Community Organizations and Education,,,,,,,,,,,
+,,,4000 �3.00�M�,EN,LECT�,01�,S04Q01�,W,8:30,170,Keele,DB 3140,,
+ED,EDST,F,Educating for Activism,,,,,,,,,,,
+,,,4010 �3.00�A�,EN,LECT�,01�,U65N01�,W,11:30,170,Keele,YL 234,Mohamed Banda�,
+ED,EDST,W,Educating for Activism,,,,,,,,,,,
+,,,4010 �3.00�M�,EN,LECT�,01�,Z12W01�,W,11:30,170,Keele,WC 030,Sava Saheli Singh�,
+ED,EDST,F,The Politics of Social Transformation: Studies of Great and Not-so-great Educators,,,,,,,,,,,
+,,,4020 �3.00�A�,EN,LECT�,01�,Y51C01�,T,8:30,170,Keele,MC 050C,Peter Flaherty�,
+ED,EDST,W,The Politics of Social Transformation: Studies of Great and Not-so-great Educators,,,,,,,,,,,
+,,,4020 �3.00�M�,EN,LECT�,01�,E98Y01�,T,8:30,170,Keele,MC 050B,,(Backup)�
+ED,EDST,F,The Nature and Responsibility of Professional Practice,,,,,,,,,,,
+,,,4040 �3.00�A�,EN,LECT�,01�,X39Z01�,W,11:30,170,Keele,WC 030,Theresa G Shanahan�,
+ED,EDST,W,The Nature and Responsibility of Professional Practice,,,,,,,,,,,
+,,,4040 �3.00�M�,EN,LECT�,01�,B86A01�,T,11:30,170,Keele,MC 050B,,(Backup)�
+ED,EDST,F,Teaching Design Thinking Within Technology Frameworks,,,,,,,,,,,
+,,,4051 �3.00�A�,EN,LECT�,01�,G72J01�,T,14:30,170,Keele,DB 3146,,(Backup)�
+ED,EDST,W,Teaching Design Thinking Within Technology Frameworks,,,,,,,,,,,
+,,,4051 �3.00�M�,EN,LECT�,01�,A19S01�,R,8:30,170,Keele,DB 3140,Andrew McConnell�,
+ED,EDST,F,"Theories, Strategies, and Challenges of Group Work",,,,,,,,,,,
+,,,4100 �3.00�A�,EN,LECT�,01�,V45T01�,T,11:30,170,Keele,DB 3146,,(Backup)�
+ED,EDST,W,"Theories, Strategies, and Challenges of Group Work",,,,,,,,,,,
+,,,4100 �3.00�M�,EN,LECT�,01�,Z92F01�,T,11:30,170,Keele,DB 3140,Celia Popovic�,
+ED,EDST,F,Creating Curriculum,,,,,,,,,,,
+,,,4200 �3.00�A�,EN,LECT�,01�,S33X01�,M,8:30,170,Keele,YL 234,Cristina Delgado Vintimilla�,
+ED,EDST,W,Creating Curriculum,,,,,,,,,,,
+,,,4200 �3.00�M�,EN,LECT�,01�,Y80R01�,M,14:30,170,Keele,YL 234,,(Backup)�
+ED,EDST,F,Policy and Practice,,,,,,,,,,,
+,,,4300 �3.00�A�,EN,LECT�,01�,F27D01�,T,8:30,170,Keele,DB 3146,,(Backup)�
+ED,EDST,W,Policy and Practice,,,,,,,,,,,
+,,,4300 �3.00�M�,EN,LECT�,01�,V74Y01�,M,8:30,170,Keele,DB 3144,,
+ED,EDST,F,Ethics and Educating in Community and Work Contexts,,,,,,,,,,,
+,,,4500 �3.00�A�,EN,LECT�,01�,P21U01�,M,14:30,170,Keele,WC 030,,(Backup)�
+ED,EDST,W,Ethics and Educating in Community and Work Contexts,,,,,,,,,,,
+,,,4500 �3.00�M�,EN,LECT�,01�,X68G01�,M,8:30,170,Keele,WC 030,Andrea Valente�,
+ED,EDST,Y,Advanced Studies and Practices in Educational Development,,,,,,,,,,,
+,,,4998 �6.00�A�,EN,ONLN�,01�,C44H01�,F,8:30,170,Keele,��,Celia Popovic�,EDST 3500 and EDST 3510 should be taken before or at the same time as this course.
+,,,,,,,,,,,,,,
+,,,4998 �6.00�B�,EN,ONLN�,01�,Cancelled,,,,,,,EDST 3500 and EDST 3510 should be taken before or at the same time as this course.
+,,,,,,,,,,,,,,
+ED,EDST,Y,"Experience, Inquire, Contribute II (EIC): Inquiry Project",,,,,,,,,,,
+,,,4999 �6.00�A�,EN,PRAC�,01�,A56A01�,R,8:30,170,Keele,YL 234,Rachelle Campigotto�,Course meets 10 times in person. Please refer to course syllabus.
+,,,,,,,,,,,,,,
+,,,4999 �6.00�B�,EN,PRAC�,01�,R03X01�,R,8:30,170,Keele,YL 234,Rachelle Campigotto�,Course meets 10 times in person. Please refer to course syllabus.
+,,,,,,,,,,,,,,
+,,,4999 �6.00�C�,EN,PRAC�,01�,K50R01�,R,8:30,170,Keele,MC 157AB,Elena Rakitskaya�,
+ED,EDUC,F,"Rethinking Schooling: A ""Re-Introduction"" to Education",,,,,,,,,,,
+,,,1000 �3.00�A�,EN,LECT�,01�,X32V01�,T,14:30,170,Keele,WC 030,Lucy Angus�,
+,,,1000 �3.00�B�,EN,LECT�,01�,B79H01�,W,14:30,170,Keele,WC 030,Ronald Benson�,
+,,,1000 �3.00�C�,EN,LECT�,01�,S26P01�,R,14:30,170,Keele,DB 3072,Lucy Angus�,
+ED,EDUC,W,"Rethinking Schooling: A ""Re-Introduction"" to Education",,,,,,,,,,,
+,,,1000 �3.00�M�,EN,LECT�,01�,Y73B01�,W,14:30,170,Keele,WC 030,Ronald Benson�,
+,,,1000 �3.00�N�,EN,LECT�,01�,F20K01�,T,14:30,170,Keele,WC 030,,(Backup)�
+,,,1000 �3.00�O�,EN,LECT�,01�,V67S01�,R,14:30,170,Keele,DB 3069,Mara Reich�,
+,,,1000 �3.00�P�,EN,LECT�,01�,P14E01�,W,11:30,170,Keele,MC 157AB,,
+ED,EDUC,F,"Rethinking Schooling: A ""Re-Introduction"" to Education",,,,,,,,,,,
+,,,1000 �3.00�G�,FR,LECT�,01�,X61N01�,W,16:00,170,Glendon,YH 247,Muriel P�guret�,Reserved for the Glendon BEd cohort.?�
+,,,,,,,,,,,,,,
+ED,EDUC,F,Issues in Indigenous Education,,,,,,,,,,,
+,,,2200 �3.00�A�,EN,LECT�,01�,R83Z01�,W,11:30,170,Keele,DB 3146,Rebecca Beaulne-Stuebing�,
+ED,EDUC,W,Pedagogy of the Land: Indigenous Understandings of the Land as First Teacher,,,,,,,,,,,
+,,,2300 �3.00�M�,EN,LECT�,01�,Y30A01�,F,14:30,170,Keele,MC 050C,,
+ED,EDUC,F,Education as Communication,,,,,,,,,,,
+,,,2400 �3.00�A�,EN,LECT�,01�,H60F01�,W,11:30,170,Keele,MC 050A,Peter Flaherty�,
+ED,EDUC,W,Thinking Mathematically,,,,,,,,,,,
+,,,2591 �3.00�M�,EN,LECT�,01�,W47B01�,F,8:30,170,Keele,MC 050C,Tina Rapke�,
+,,,2591 �3.00�N�,EN,LECT�,01�,P94K01�,W,8:30,170,Keele,MC 050A,Tina Rapke�,
+,,,2591 �3.00�O�,EN,LECT�,01�,J41T01�,W,11:30,170,Keele,DB 3146,,(Backup)�
+ED,EDUC,F,Hands-on Mathematics to Support Interdisciplinary Learning,,,,,,,,,,,
+,,,2594 �3.00�A�,EN,LECT�,01�,D89N01�,W,11:30,170,Keele,MC 050B,Golriz Karoubi�,
+ED,EDUC,W,Hands-on Mathematics to Support Interdisciplinary Learning,,,,,,,,,,,
+,,,2594 �3.00�M�,EN,LECT�,01�,U36V01�,W,11:30,170,Keele,MC 050A,,
+,,,2594 �3.00�N�,EN,LECT�,01�,N83H01�,F,14:30,170,Keele,DB 3144,,
+,,,2594 �3.00�O�,EN,LECT�,01�,H30Q01�,W,11:30,170,Keele,DB 3144,Golriz Karoubi�,
+,,,2594 �3.00�R�,EN,LECT�,01�,A77C01�,T,11:30,170,Keele,WC 030,,Reserved for the TMU BEd cohort. Course will be held at Keele campus.
+,,,,,,,,,,,,,,
+ED,EDUC,F,Teaching Internationally and Interculturally,,,,,,,,,,,
+,,,2700 �3.00�A�,EN,LECT�,01�,N19E01�,W,8:30,170,Keele,MC 050B,Andrea Valente�,
+ED,EDUC,W,Teaching English in International Contexts,,,,,,,,,,,
+,,,2720 �3.00�M�,EN,LECT�,01�,A42Z01�,W,8:30,170,Keele,DB 3146,,(Backup)�
+ED,EDUC,Y,Teaching Religious Education & Catholic Schools,,,,,,,,,,,
+,,,3000 �0.00�U�,EN,LECT�,01�,C08W01�,M,8:30,170,Catholic Education Centre,��,Emily Fickel�,Reserved for the CEC BEd cohort. Course will be held at the Catholic Education Centre site.
+,,,,,,,,,,,,,,"Class will meet on Sept. 15, Sept. 29, Oct. 6, Oct. 27, Nov. 10, Nov. 24, Jan. 12, Jan. 26, Feb. 9, Feb. 23, March 16 and March 30."
+,,,,,,,,,,,,,,
+ED,EDUC,W,Urban Education,,,,,,,,,,,
+,,,3300 �3.00�M�,EN,LECT�,01�,E18F01�,W,8:30,170,Keele,MC 050B,,
+ED,EDUC,F,Teaching for Understanding in the Mathematics Classroom,,,,,,,,,,,
+,,,3592 �3.00�A�,EN,LECT�,01�,Cancelled,,,,,,,
+,,,3592 �3.00�B�,EN,LECT�,01�,Cancelled,,,,,,,
+ED,EDUC,W,Teaching for Understanding in the Mathematics Classroom,,,,,,,,,,,
+,,,3592 �3.00�M�,EN,LECT�,01�,B58F01�,W,11:30,170,Keele,DB 3069,,
+ED,EDUC,F,Literacy and Culture,,,,,,,,,,,
+,,,3600 �3.00�A�,EN,LECT�,01�,S55H01�,W,8:30,170,Keele,DB 3072,Nombuso Dlamini�,
+ED,EDUC,RW,Literacy and Culture,,,,,,,,,,,
+,,,3600 �3.00�Z�,EN,LECT�,01�,M02Q01�,M,8:30,432,Off Campus,��,,This course is taking place at Las Nubes in Costa Rica during the Reading Week in the Winter term. By Permission only
+,,,,,,,,T,8:30,432,Off Campus,��,,
+,,,,,,,,W,8:30,432,Off Campus,��,,(Backup)�
+,,,,,,,,R,8:30,432,Off Campus,��,,
+,,,,,,,,F,8:30,432,Off Campus,��,,
+ED,EDUC,W,Literacy and Culture,,,,,,,,,,,
+,,,3600 �3.00�M�,EN,LECT�,01�,F49C01�,F,8:30,170,Keele,DB 3144,,(Backup)�
+,,,3600 �3.00�N�,EN,LECT�,01�,V96K01�,W,14:30,170,Keele,DB 3144,Farah Virani�,
+ED,EDUC,W,New Media Literacies and Culture,,,,,,,,,,,
+,,,3610 �3.00�M�,EN,LECT�,01�,H89U01�,W,11:30,170,Keele,MC 050B,Kurt Thumlert�,
+ED,EDUC,W,The Psychoanalysis of Teaching and Learning: Studies in the teacher's emotional world,,,,,,,,,,,
+,,,3650 �3.00�M�,EN,LECT�,01�,K07Q01�,T,11:30,170,Keele,MC 050A,Lisa H. E. Farley�,
+ED,EDUC,F,Educating for a Sustainable Future:A Multidisciplinary Approach,,,,,,,,,,,
+,,,3700 �3.00�A�,EN,LECT�,01�,P43T01�,W,11:30,170,Keele,DB 3072,Steven John Alsop�,
+ED,EDUC,W,Global Issues and Education,,,,,,,,,,,
+,,,3710 �3.00�M�,EN,LECT�,01�,X90F01�,T,8:30,170,Keele,MC 050A,Qiang Zha�,
+ED,EDUC,F,Education and International Development,,,,,,,,,,,
+,,,3711 �3.00�A�,EN,LECT�,01�,Cancelled,,,,,,,
+ED,EDUC,F,Philosophical Inquiry into Critical Thinking and Curriculum,,,,,,,,,,,
+,,,3720 �3.00�A�,EN,LECT�,01�,C37Z01�,W,8:30,170,Keele,MC 050C,,(Backup)�
+ED,EDUC,W,Classroom Assessment,,,,,,,,,,,
+,,,3750 �3.00�M�,EN,LECT�,01�,A70J01�,F,14:30,170,Keele,MC 050B,Patrick Darkhor�,
+,,,3750 �3.00�N�,EN,LECT�,01�,R17R01�,W,8:30,170,Keele,DB 3072,Janette Holmes�,
+,,,3750 �3.00�O�,EN,LECT�,01�,K64D01�,W,14:30,170,Keele,DB 3072,,
+ED,EDUC,W,Early and Family Literacy,,,,,,,,,,,
+,,,3760 �3.00�M�,EN,LECT�,01�,C88F01�,F,8:30,170,Keele,MC 050B,Kenisha Bynoe�,
+,,,3760 �3.00�N�,EN,LECT�,01�,T35N01�,W,8:30,170,Keele,MC 050C,Kenisha Bynoe�,
+ED,EDUC,W,Teaching and Learning with Digital Technology,,,,,,,,,,,
+,,,3770 �3.00�M�,EN,LECT�,01�,B36G01�,T,11:30,170,Keele,DB 3072,Andrew McConnell�,
+ED,EDUC,F,Arts & Ideas,,,,,,,,,,,
+,,,3800 �3.00�A�,EN,LECT�,01�,M82W01�,W,8:30,170,Keele,WC 030,Cristina Delgado Vintimilla�,
+ED,EDUC,F,Teaching English Language Learners in Mainstream Classrooms,,,,,,,,,,,
+,,,3821 �3.00�R�,EN,BLEN�,01�,Y29D01�,T,12:00,170,Toronto Metropolitan Univ,��,Nancy Bell�,"Reserved for the TMU BEd cohort. Course will be held at TMU campus. For more information, check the�map."
+,,,,,,,,,,,,,,
+ED,EDUC,W,Teaching English Language Learners in Mainstream Classrooms,,,,,,,,,,,
+,,,3821 �3.00�M�,EN,LECT�,01�,E76M01�,F,14:30,170,Keele,DB 3072,Gail Prasad�,
+,,,3821 �3.00�N�,EN,LECT�,01�,V23U01�,W,11:30,170,Keele,DB 3072,,
+,,,3821 �3.00�W�,EN,LECT�,01�,Z64V01�,M,8:30,170,Markham,MK 4055,Gail Prasad�,
+,,,3821 �3.00�X�,EN,LECT�,01�,X11H01�,M,11:30,170,Markham,MK 4055,Gail Prasad�,
+,,,3821 �3.00�Y�,EN,LECT�,01�,B58Q01�,M,14:30,170,Markham,MK 4055,Gail Prasad�,
+,,,3821 �3.00�Z�,EN,LECT�,01�,S05B01�,M,11:30,170,Markham,MK 5010,,
+ED,EDUC,W,Reading Instruction and Assessment,,,,,,,,,,,
+,,,3822 �3.00�M�,EN,LECT�,01�,B35J01�,W,11:30,170,Keele,MC 050C,Kenisha Bynoe�,
+,,,3822 �3.00�N�,EN,LECT�,01�,R82R01�,W,14:30,170,Keele,MC 050B,Mary Ott�,
+ED,EDUC,F,Studies in Popular Culture,,,,,,,,,,,
+,,,3900 �3.00�A�,EN,LECT�,01�,B07Z01�,W,14:30,170,Keele,MC 050A,Sava Saheli Singh�,
+ED,EDUC,W,Studies in Popular Culture,,,,,,,,,,,
+,,,3900 �3.00�M�,EN,LECT�,01�,R54W01�,W,14:30,170,Keele,MC 050C,Sava Saheli Singh�,
+ED,EDUC,RW,Student-Initiated Collaborative Inquiry,,,,,,,,,,,
+,,,3998 �3.00�Z�,EN,ISTY�,01�,F28A01�,M,8:30,432,Off Campus,��,,This course is taking place at Las Nubes in Costa Rica during the Reading Week in the Winter term. By Permission only
+,,,,,,,,T,8:30,432,Off Campus,��,,
+,,,,,,,,W,8:30,432,Off Campus,��,,(Backup)�
+,,,,,,,,R,8:30,432,Off Campus,��,,
+,,,,,,,,F,8:30,432,Off Campus,��,,
+ED,EDUC,Y,Student-Initiated Collaborative Inquiry,,,,,,,,,,,
+,,,3998 �3.00�A�,EN,ISTY�,01�,V75X01�,,0:00,0,Keele,��,,(Backup)�
+ED,EN,F,Teaching English in the Intermediate Division,,,,,,,,,,,
+,,,3000 �3.00�A�,EN,LECT�,01�,F34T01�,F,11:30,170,Keele,DB 3072,Lorin Schwarz�,
+,,,3000 �3.00�B�,EN,LECT�,01�,V81E01�,F,8:30,170,Keele,DB 3072,Lorin Schwarz�,(Backup)�
+ED,EN,F,Teaching English in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,X46H01�,F,11:30,170,Keele,DB 3072,Lorin Schwarz�,
+,,,4000 �3.00�B�,EN,LECT�,01�,B93Q01�,F,8:30,170,Keele,DB 3072,Lorin Schwarz�,(Backup)�
+ED,EN,W,Teaching English in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,S40B01�,F,11:30,170,Keele,DB 3072,Lorin Schwarz�,
+,,,4001 �3.00�N�,EN,LECT�,01�,Y87K01�,F,8:30,170,Keele,DB 3072,Lorin Schwarz�,(Backup)�
+ED,ENTR,F,Teaching Entrepreneurial Studies in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,S22B01�,F,8:30,170,Keele,WC 117,Roy Parteno�,
+ED,ENTR,W,Teaching Entrepreneurial Studies in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�N�,EN,LECT�,01�,Y69K01�,F,8:30,170,Keele,WC 117,Roy Parteno�,
+ED,ENVS,F,Teaching Environmental Science in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,F63Y01�,F,11:30,170,Keele,MC 157AB,Darren Hoeg�,
+ED,ENVS,W,Teaching Environmental Science in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,W10T01�,F,11:30,170,Keele,MC 157AB,Darren Hoeg�,
+ED,FAST,F,Teaching Family Studies in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,S84W01�,F,8:30,170,Keele,DB 3069,Eleanor Johnston�,
+,,,4000 �3.00�B�,EN,LECT�,01�,M31X01�,F,11:30,170,Keele,DB 3069,Jack Cecillon�,(Backup)�
+ED,FAST,W,Teaching Family Studies in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,F78R01�,F,8:30,170,Keele,DB 3069,Eleanor Johnston�,
+,,,4001 �3.00�N�,EN,LECT�,01�,W25C01�,F,11:30,170,Keele,DB 3069,Jack Cecillon�,(Backup)�
+ED,FNMI,F,"Teaching First Nations, M�tis & Inuit Studies in the Intermediate Division",,,,,,,,,,,
+,,,3000 �3.00�A�,EN,ISTY�,01�,R32A01�,,0:00,0,Keele,��,Andrew McConnell�,(Backup)�
+ED,FNMI,F,"Teaching First Nations, M�tis & Inuit Studies in the Intermediate Senior Division - Part A",,,,,,,,,,,
+,,,4000 �3.00�A�,EN,ISTY�,01�,K79J01�,,0:00,0,Keele,��,Andrew McConnell�,
+ED,FNMI,W,"Teaching First Nations, M�tis & Inuit Studies in the Intermediate/Senior Division - Part B",,,,,,,,,,,
+,,,4001 �3.00�M�,EN,ISTY�,01�,E26S01�,,0:00,0,Keele,��,Andrew McConnell�,(Backup)�
+ED,FREN,F,Teaching French in the Intermediate Division,,,,,,,,,,,
+,,,3000 �3.00�A�,FR,LECT�,01�,P72Y01�,F,8:30,170,Keele,MC 050A,Mara Reich�,
+,,,3000 �3.00�B�,FR,LECT�,01�,J19U01�,F,11:30,170,Keele,��,,(Backup)�
+ED,FREN,F,Teaching French as a Second Language in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,FR,LECT�,01�,C66G01�,F,8:30,170,Keele,MC 050A,Mara Reich�,
+,,,4000 �3.00�B�,FR,LECT�,01�,T13Z01�,F,11:30,170,Keele,��,,(Backup)�
+ED,FREN,W,Teaching French as a Second Language in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,FR,LECT�,01�,M60A01�,F,8:30,170,Keele,MC 050A,Mara Reich�,
+,,,4001 �3.00�N�,FR,LECT�,01�,G07J01�,F,11:30,170,Keele,��,,(Backup)�
+ED,GEOG,F,Teaching Geography in the Intermediate Division,,,,,,,,,,,
+,,,3000 �3.00�A�,EN,LECT�,01�,Q01D01�,F,8:30,170,Keele,DB 3140,Peter Flaherty�,
+,,,3000 �3.00�B�,EN,LECT�,01�,J48M01�,F,11:30,170,Keele,DB 3140,Peter Flaherty�,(Backup)�
+ED,GEOG,F,Teaching Geography in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,C95V01�,F,8:30,170,Keele,DB 3140,Peter Flaherty�,
+,,,4000 �3.00�B�,EN,LECT�,01�,T42G01�,F,11:30,170,Keele,DB 3140,Peter Flaherty�,(Backup)�
+ED,GEOG,W,Teaching Geography in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,M89P01�,F,8:30,170,Keele,DB 3140,Peter Flaherty�,
+,,,4001 �3.00�N�,EN,LECT�,01�,G36B01�,F,11:30,170,Keele,DB 3140,Peter Flaherty�,(Backup)�
+ED,HEB,Y,Teaching Modern Hebrew Language Arts & the Jewish Year,,,,,,,,,,,
+,,,2030 �3.00�A�,HE,BLEN�,01�,G29X01�,M,11:30,170,Keele,WC 117,L. Wiseman,
+,,,,,,,,,,,,,Ora Shulman�,
+ED,HEB,Y,Teaching Classical Hebrew Texts in Jewish Studies,,,,,,,,,,,
+,,,3030 �3.00�A�,HE,BLEN�,01�,W76Q01�,W,17:30,170,Keele,��,,(Backup)�
+ED,HIST,F,Teaching History in the Intermediate Classroom,,,,,,,,,,,
+,,,3000 �3.00�A�,EN,LECT�,01�,W83J01�,F,8:30,170,Keele,DB 3140,Peter Flaherty�,
+,,,3000 �3.00�B�,EN,LECT�,01�,Q30S01�,F,11:30,170,Keele,DB 3140,Peter Flaherty�,(Backup)�
+ED,HIST,F,Teaching History in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,J77E01�,F,8:30,170,Keele,DB 3140,Peter Flaherty�,
+,,,4000 �3.00�B�,EN,LECT�,01�,D24N01�,F,11:30,170,Keele,DB 3140,Peter Flaherty�,(Backup)�
+ED,HIST,W,Teaching History in the Intermediate-Senior Division - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,T71V01�,F,8:30,170,Keele,DB 3140,Peter Flaherty�,
+,,,4001 �3.00�N�,EN,LECT�,01�,N18H01�,F,11:30,170,Keele,DB 3140,Peter Flaherty�,(Backup)�
+ED,ITEC,F,Teaching Computer Studies in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,E70Q01�,F,8:30,170,Keele,WC 117,Roy Parteno�,
+ED,ITEC,W,Teaching Computer Studies in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,V17B01�,F,8:30,170,Keele,WC 117,Roy Parteno�,
+ED,LAW,F,Teaching Law in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,E11M01�,F,8:30,170,Keele,DB 3140,Peter Flaherty�,
+,,,4000 �3.00�B�,EN,LECT�,01�,U58U01�,F,11:30,170,Keele,DB 3140,Peter Flaherty�,(Backup)�
+ED,LAW,W,Teaching Law in the Intermediate-Senior Division - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,G65Q01�,F,8:30,170,Keele,DB 3140,Peter Flaherty�,
+,,,4001 �3.00�N�,EN,LECT�,01�,A12C01�,F,11:30,170,Keele,DB 3140,Peter Flaherty�,(Backup)�
+ED,LLDV,B2,Language and Literacy Development 1,,,,,,,,,,,
+,,,3735 �6.00�A�,EN,BLEN�,01�,Q02A01�,,0:00,0,Keele,��,Connie Mayer�,Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.?�
+,,,,,,,,,,,,,,
+ED,LLDV,B3,Language and Literacy Development in Deaf and Hard of Hearing Learners II,,,,,,,,,,,
+,,,3736 �6.00�A�,EN,BLEN�,01�,Q60H01�,,0:00,0,Keele,��,Melanie Simpson�,Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.?�
+,,,,,,,,,,,,,,
+ED,MATH,F,Teaching Mathematics in the Intermediate Division,,,,,,,,,,,
+,,,3000 �3.00�A�,EN,LECT�,01�,Q59K01�,F,11:30,170,Keele,WC 030,Molade Osibodu�,
+ED,MATH,F,Teaching Mathematics in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,K06T01�,F,11:30,170,Keele,WC 030,Molade Osibodu�,
+ED,MATH,W,Teaching Mathematics in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,R24K01�,F,11:30,170,Keele,WC 030,Molade Osibodu�,
+ED,MUSI,F,Teaching Music in the Intermediate Division,,,,,,,,,,,
+,,,3000 �3.00�A�,EN,LECT�,01�,D53F01�,F,8:30,170,Keele,ACE 122,John Lum�,
+ED,MUSI,F,Teaching Music in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,U00N01�,F,8:30,170,Keele,ACE 122,John Lum�,
+ED,MUSI,W,Teaching Music in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,N47W01�,F,8:30,170,Keele,ACE 122,John Lum�,
+ED,ORCO,B4,Listening and Speaking with Deaf and Hard of Hearing Learners,,,,,,,,,,,
+,,,3540 �3.00�M�,EN,BLEN�,01�,S62A01�,,0:00,0,Keele,��,Pamela Millett�,Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.?�
+,,,,,,,,,,,,,,
+ED,PHED,F,Teaching Physical Education in the Intermediate Division,,,,,,,,,,,
+,,,3000 �3.00�A�,EN,BLEN�,01�,J92K01�,F,8:30,170,Keele,��,Joseph Grdisa�,
+ED,PHED,F,Teaching Physical Education in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,BLEN�,01�,T86E01�,F,8:30,170,Keele,��,Joseph Grdisa�,
+ED,PHED,W,Teaching Physical Education in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,BLEN�,01�,D39T01�,F,8:30,170,Keele,��,Samara Thompson�,
+ED,PHIL,F,Teaching Philosophy in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,G94X01�,F,8:30,170,Keele,DB 3069,Eleanor Johnston�,
+,,,4000 �3.00�B�,EN,LECT�,01�,A41R01�,F,11:30,170,Keele,DB 3069,Jack Cecillon�,(Backup)�
+ED,PHIL,W,Teaching Philosophy in the Intermediate-Senior Division - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,Q88C01�,F,8:30,170,Keele,DB 3069,Eleanor Johnston�,
+,,,4001 �3.00�N�,EN,LECT�,01�,K35Y01�,F,11:30,170,Keele,DB 3069,Jack Cecillon�,(Backup)�
+ED,PHYS,F,Teaching Physics in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,D38W01�,F,8:30,170,Keele,MC 157AB,Lisa Cole�,
+ED,PHYS,W,Teaching Physics in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,T85H01�,F,8:30,170,Keele,MC 157AB,Lisa Cole�,
+ED,POLS,F,Teaching Politics in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,N11Z01�,F,8:30,170,Keele,DB 3140,Peter Flaherty�,
+,,,4000 �3.00�B�,EN,LECT�,01�,G58A01�,F,11:30,170,Keele,DB 3140,Peter Flaherty�,(Backup)�
+ED,POLS,W,Teaching Politics in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,A05J01�,F,8:30,170,Keele,DB 3140,Peter Flaherty�,
+,,,4001 �3.00�N�,EN,LECT�,01�,Q52R01�,F,11:30,170,Keele,DB 3140,Peter Flaherty�,(Backup)�
+ED,RELS,F,Teaching Religious Education in Catholic Schools in the IS Division - Part A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,ISTY�,01�,J99D01�,,0:00,0,Keele,��,Monica Diaz-Greco�,(Backup)�
+ED,RELS,W,Teaching Religious Education in Catholic Schools in the IS Division Part B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,ISTY�,01�,D46M01�,,0:00,0,Keele,��,Monica Diaz-Greco�,(Backup)�
+ED,SCIE,F,Teaching Science in the Intermediate Division,,,,,,,,,,,
+,,,3000 �3.00�A�,EN,LECT�,01�,N32Q01�,F,8:30,170,Keele,MC 157AB,Lisa Cole�,
+ED,SCIE,F,Teaching Science (General) in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,G79C01�,F,8:30,170,Keele,MC 157AB,Lisa Cole�,
+ED,SCIE,W,Teaching Science (General) in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,A26Y01�,F,8:30,170,Keele,MC 157AB,Lisa Cole�,
+ED,SLGS,B3,Educational Use of Signs,,,,,,,,,,,
+,,,3510 �3.00�A�,EN,BLEN�,01�,J49J01�,,0:00,0,Keele,��,Melanie Simpson�,Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.?�
+,,,,,,,,,,,,,,
+ED,SLGS,B4,American Sign Language 2,,,,,,,,,,,
+,,,3525 �3.00�M�,EA,BLEN�,01�,B43W01�,,0:00,0,Keele,��,,Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.?�
+,,,,,,,,,,,,,,
+ED,SOSC,F,Teaching Social Sciences (General) in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,D82U01�,F,8:30,170,Keele,DB 3069,Eleanor Johnston�,
+,,,4000 �3.00�B�,EN,LECT�,01�,U29F01�,F,11:30,170,Keele,DB 3069,Jack Cecillon�,(Backup)�
+ED,SOSC,W,Teaching Social Sciences (General) in the Intermediate-Senior Divisions - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,N76Z01�,F,8:30,170,Keele,DB 3069,Eleanor Johnston�,
+,,,4001 �3.00�N�,EN,LECT�,01�,H23A01�,F,11:30,170,Keele,DB 3069,Jack Cecillon�,(Backup)�
+ED,TECH,F,Teaching Technological Education in the Intermediate-Senior Divisions - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,N33N01�,F,8:30,170,Keele,DB 3146,Andrew McConnell�,
+ED,TECH,W,Teaching Technological Education in the Intermediate-Senior Division - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,W04A01�,F,8:30,170,Keele,DB 3146,Andrew McConnell�,
+ED,TECH,F,Curriculum Connections for Technological Education,,,,,,,,,,,
+,,,4050 �3.00�A�,EN,LECT�,01�,K71T01�,R,8:30,170,Keele,WC 030,Andrew McConnell�,Reserved for the Tech Ed BEd cohort.
+,,,,,,,,,,,,,,
+ED,TECH,W,Teaching Design Thinking Within Technology Frameworks,,,,,,,,,,,
+,,,4051 �3.00�M�,EN,LECT�,01�,H59X01�,R,8:30,170,Keele,WC 030,Andrew McConnell�,Reserved for the Tech Ed BEd cohort.
+,,,,,,,,,,,,,,
+ED,TLSE,B3,Teaching and Learning Seminar,,,,,,,,,,,
+,,,3715 �6.00�A�,EN,BLEN�,01�,R90H01�,,0:00,0,Keele,��,Melanie Simpson�,Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.?�
+,,,,,,,,,,,,,,
+ED,TLSE,B3,Practicum 1,,,,,,,,,,,
+,,,3716 �0.00�A�,EN,PRAC�,01�,U73D01�,,0:00,0,Keele,��,Melanie Simpson�,"Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.?�Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements."
+,,,,,,,,,,,,,,$300.00 - Course Materials�
+ED,TLSE,B3,Practicum 2,,,,,,,,,,,
+,,,3717 �0.00�A�,EN,PRAC�,01�,Z20M01�,,0:00,0,Keele,��,Melanie Simpson�,"Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.?�Students must have presented a cleared, current Vulnerable Sector Screening from their local police department prior to entering placements."
+,,,,,,,,,,,,,,$300.00 - Course Materials�
+ED,TLSE,B4,Teaching Deaf and Hard of Hearing Learners in Inclusive Settings,,,,,,,,,,,
+,,,3725 �3.00�M�,EN,BLEN�,01�,Y37Q01�,,0:00,0,Keele,��,Pamela Millett�,Course only open to students in the Deaf and Hard of Hearing Teacher Education Program.?�
+,,,,,,,,,,,,,,
+ED,VISA,F,Teaching Visual Arts in the Intermediate Division,,,,,,,,,,,
+,,,3000 �3.00�A�,EN,LECT�,01�,W54R01�,F,8:30,170,Keele,CFA 330,Emily Burgis�,
+ED,VISA,F,Teaching Visual Arts in the Intermediate-Senior Division - A,,,,,,,,,,,
+,,,4000 �3.00�A�,EN,LECT�,01�,G80W01�,F,8:30,170,Keele,CFA 330,Emily Burgis�,
+ED,VISA,W,Teaching Visual Arts in the Intermediate-Senior Division - B,,,,,,,,,,,
+,,,4001 �3.00�M�,EN,LECT�,01�,A27X01�,F,8:30,170,Keele,ACW 205,Emily Burgis�,
+,,,,,,,,,,,,,,
+View Active Course Timetables by Faculty,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+"This file was last updated on�Fri, 5 Sep 2025 at 03:30:31 AM.",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+"In some cases, you may find courses which have more than one catalogue number assigned to a single meet (a single lecture, tutorial, lab etc.). Multiple catalogue numbers indicate that the course is cross-listed. For more information about the cross-listing, please see the course description in the�Courses Web site.",,,,,,,,,,,,,,
