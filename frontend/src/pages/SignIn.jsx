@@ -12,7 +12,10 @@ export default function SignIn() {
     e.preventDefault();
     setMsg("");
     try {
-      const { accessToken, refreshToken } = await apiPost("/auth/login", { username, password });
+      const { accessToken, refreshToken } = await apiPost("/auth/login", {
+        username,
+        password,
+      });
       // store tokens (basic localStorage for now)
       localStorage.setItem("accessToken", accessToken);
       localStorage.setItem("refreshToken", refreshToken);
@@ -20,7 +23,7 @@ export default function SignIn() {
       // quick test call (optional)
       const me = await apiGet("/auth/me", accessToken);
       setMsg(`Welcome ${me.user?.name || ""}!`);
-        nav("/home");
+      nav("/home");
       // nav("/dashboard"); // when you have it
     } catch (err) {
       setMsg(err.message);
@@ -32,9 +35,17 @@ export default function SignIn() {
       <h2>Sign In</h2>
       <form onSubmit={onSignIn} style={styles.form}>
         <label>Username</label>
-        <input value={username} onChange={(e) => setUsername(e.target.value)} placeholder="yourname@my.yorku.ca" />
+        <input
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          placeholder="yourname@my.yorku.ca"
+        />
         <label>Password</label>
-        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+        <input
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
         <button type="submit">Sign In</button>
       </form>
 
@@ -47,8 +58,20 @@ export default function SignIn() {
 }
 
 const styles = {
-  wrap: { maxWidth: 420, margin: "60px auto", padding: 20, border: "1px solid #ddd", borderRadius: 8 },
+  wrap: {
+    maxWidth: 420,
+    margin: "60px auto",
+    padding: 20,
+    border: "1px solid #ddd",
+    borderRadius: 8,
+  },
   form: { display: "flex", flexDirection: "column", gap: 8 },
-  linkBtn: { marginTop: 10, background: "transparent", border: "1px solid #333", padding: "8px 12px", cursor: "pointer" },
+  linkBtn: {
+    marginTop: 10,
+    background: "transparent",
+    border: "1px solid #333",
+    padding: "8px 12px",
+    cursor: "pointer",
+  },
   msg: { marginTop: 10, color: "#444" },
 };

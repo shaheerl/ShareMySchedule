@@ -10,6 +10,8 @@ import { apiPost } from "./api";
 import MySchedule from "./pages/MySchedule";
 import ManualEntry from "./pages/ManualEntry";
 import FindClassmates from "./pages/FindClassmates";
+import Inbox from "./pages/Inbox";
+import MyFriends from "./pages/MyFriends";
 
 function AppRoutes() {
   const nav = useNavigate();
@@ -53,10 +55,12 @@ const refreshToken = sessionStorage.getItem("refreshToken");
           </ProtectedRoute>
         }
       >
+        <Route path="inbox" element={<Inbox />} />
         <Route path="/home" element={<Home />} />
 <Route path="/find-classmates" element={<FindClassmates />} />
         <Route path="/account-settings" element={<AccountSettings />} />
         <Route path="/my-schedule" element={<MySchedule />} />
+        <Route path="/my-friends" element={<MyFriends/>} />
 <Route path="/manual-entry" element={<ManualEntry />} />
       </Route>
 

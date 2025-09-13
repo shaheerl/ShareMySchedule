@@ -310,30 +310,17 @@ export default function ManualEntry() {
           )}
 
           {msg && (
-  <div style={{ marginTop: 12 }}>
-    <p style={{ color: msg.includes("Saved") ? "green" : "red" }}>
-      {msg}
-    </p>
+            <div style={{ marginTop: 12 }}>
+              <p style={{ color: msg.includes("Saved") ? "green" : "red" }}>
+                {msg}
+              </p>
 
-    {/* 👇 only show if msg is a success */}
-    {msg.includes("Saved") && (
-      <button
-        onClick={() => nav("/manual-entry")}
-        style={{
-          marginTop: 8,
-          padding: "6px 12px",
-          background: "#e6f2ff",
-          border: "1px solid #333",
-          cursor: "pointer",
-        }}
-      >
-        Add another course
-      </button>
-    )}
-  </div>
-)}
-
-          
+              {/* 👇 only show if msg is a success */}
+              {msg.includes("Saved") && (
+                <p> You can continue adding courses </p>
+              )}
+            </div>
+          )}
         </div>
       )}
     </div>

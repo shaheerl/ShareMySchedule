@@ -22,6 +22,35 @@ model User {
   schedules       Schedule[]
   sessions        Session[]
   uploads         Upload[]
+
+  preferredPlatform ConnectPlatform?
+  discordHandle     String?
+  instagramHandle   String?
+
+  sentConnections     ConnectionRequest[] @relation("Sent")
+  receivedConnections ConnectionRequest[] @relation("Received")
+
+  friendships1 Friendship[] @relation("FriendshipUser1")
+  friendships2 Friendship[] @relation("FriendshipUser2")
+}
+
+model ConnectionRequest {
+  id         String          @id @default(cuid())
+  fromUserId String
+  toUserId   String
+  platform   ConnectPlatform
+  handle     String
+  message    String          @db.VarChar(200)
+  status     ConnectStatus   @default(PENDING)
+  createdAt  DateTime        @default(now())
+
+  senderName   String?
+  senderDegree String?
+  senderMajor  String?
+  senderYear   String?
+
+  fromUser User @relation("Sent", fields: [fromUserId], references: [id])
+  toUser   User @relation("Received", fields: [toUserId], references: [id])
 }
 
 model Session {
@@ -125,4 +154,28 @@ enum Term {
   Y
   LB
   WL
+}
+
+enum ConnectPlatform {
+  DISCORD
+  INSTAGRAM
+}
+
+enum ConnectStatus {
+  PENDING
+  ACCEPTED
+  DECLINED
+  CANCELLED
+}
+
+model Friendship {
+  id        String   @id @default(cuid())
+  user1Id   String
+  user2Id   String
+  createdAt DateTime @default(now())
+
+  user1 User @relation("FriendshipUser1", fields: [user1Id], references: [id])
+  user2 User @relation("FriendshipUser2", fields: [user2Id], references: [id])
+
+  @@unique([user1Id, user2Id])
 }

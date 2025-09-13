@@ -19,6 +19,7 @@ export default function Layout() {
           <li onClick={() => nav("/home")}>Home</li>
           <li onClick={() => nav("/my-schedule")}>My Schedule</li>
           <li onClick={() => nav("/find-classmates")}>Find Classmates</li>
+          <li onClick={() => nav("/my-friends")}>My Friends</li>
           <li onClick={() => nav("/account-settings")}>Account Settings</li>
         </ul>
       </div>
@@ -27,6 +28,8 @@ export default function Layout() {
       <div style={styles.main}>
         <div style={styles.topBar}>
           <h1>Share My Schedule</h1>
+          <button style={styles.signOutBtn} onClick={() => nav("/inbox")}>Inbox</button>
+
           <button style={styles.signOutBtn} onClick={signOut}>
             Sign Out
           </button>

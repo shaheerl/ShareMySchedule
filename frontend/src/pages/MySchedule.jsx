@@ -3,15 +3,19 @@ import { apiGet } from "../api";
 import { useNavigate } from "react-router-dom";
 
 const TABS = ["All", "F", "W", "S"];
-const label = (t) => (t === "F" ? "Fall" : t === "W" ? "Winter" : t === "S" ? "Summer" : "All");
+const label = (t) =>
+  t === "F" ? "Fall" : t === "W" ? "Winter" : t === "S" ? "Summer" : "All";
 
 // sort: LECT → TUT → LAB (then by start time)
-const typeRank = (t) => (t === "LECT" ? 0 : t === "TUT" ? 1 : t === "LAB" ? 2 : 3);
+const typeRank = (t) =>
+  t === "LECT" ? 0 : t === "TUT" ? 1 : t === "LAB" ? 2 : 3;
 
 export default function MySchedule() {
   const nav = useNavigate();
   const [schedules, setSchedules] = useState([]);
   const [tab, setTab] = useState("All");
+  const [confirmDelete, setConfirmDelete] = useState(null); // track which course is confirming delete
+  const [expanded, setExpanded] = useState({}); // track expanded/collapsed state
   const token = localStorage.getItem("accessToken");
 
   const load = () =>
@@ -19,14 +23,14 @@ export default function MySchedule() {
       .then((r) => setSchedules(Array.isArray(r.schedules) ? r.schedules : []))
       .catch(() => setSchedules([]));
 
-  useEffect(() => { load(); }, []);
+  useEffect(() => {
+    load();
+  }, []);
 
   const filtered = useMemo(
     () => (tab === "All" ? schedules : schedules.filter((s) => s.term === tab)),
     [schedules, tab]
-    
   );
-  
 
   // group by term, then by courseCode
   const byTerm = useMemo(() => {
@@ -52,6 +56,47 @@ export default function MySchedule() {
   }, [filtered]);
 
   const hasAny = schedules.length > 0;
+
+  const doDelete = async (code) => {
+    try {
+      await fetch(
+        `${
+          process.env.REACT_APP_API_BASE_URL || "http://localhost:5000"
+        }/schedules/code/${encodeURIComponent(code)}`,
+        {
+          method: "DELETE",
+          headers: {
+            Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
+          },
+        }
+      );
+      setConfirmDelete(null);
+      await load();
+    } catch {
+      setConfirmDelete(null);
+    }
+  };
+
+  const toggleExpand = (code) => {
+    setExpanded((prev) => ({
+      ...prev,
+      [code]: !prev[code],
+    }));
+  };
+
+  const expandAll = () => {
+    const allCodes = {};
+    for (const [, courses] of byTerm) {
+      for (const code of courses.keys()) {
+        allCodes[code] = true;
+      }
+    }
+    setExpanded(allCodes);
+  };
+
+  const collapseAll = () => {
+    setExpanded({});
+  };
 
   return (
     <div>
@@ -79,6 +124,12 @@ export default function MySchedule() {
 
       <div style={{ display: "flex", gap: 10, marginBottom: 12 }}>
         <button onClick={() => nav("/manual-entry")}>Select courses</button>
+        {hasAny && (
+          <>
+            <button onClick={expandAll}>Expand All</button>
+            <button onClick={collapseAll}>Collapse All</button>
+          </>
+        )}
       </div>
 
       {/* Term sections */}
@@ -88,48 +139,95 @@ export default function MySchedule() {
           const courses = byTerm.get(termKey);
           return (
             <div key={termKey} style={{ marginBottom: 18 }}>
-              {tab === "All" && <h3 style={{ marginBottom: 8 }}>{label(termKey)}</h3>}
+              {tab === "All" && (
+                <h3 style={{ marginBottom: 8 }}>{label(termKey)}</h3>
+              )}
               {[...courses.keys()].map((code) => (
-                <div key={code} style={{ marginBottom: 10, border: "1px solid #ddd", borderRadius: 6 }}>
-                  <div style={{ padding: "8px 10px", background: "#fafafa", borderBottom: "1px solid #eee" }}>
-                    <strong>{code} </strong>
-                    <button
-                              onClick={async () => {
-                                try {
-                                  // delete endpoint per id (already in your backend)
-                                  await fetch(`${process.env.REACT_APP_API_BASE_URL || "http://localhost:5000"}/schedules/code/${encodeURIComponent(code)}`, {
-  method: "DELETE",
-  headers: { Authorization: `Bearer ${localStorage.getItem("accessToken")}` },
-});
+                <div
+                  key={code}
+                  style={{
+                    marginBottom: 10,
+                    border: "1px solid #ddd",
+                    borderRadius: 6,
+                  }}
+                >
+                  <div
+                    style={{
+                      padding: "8px 10px",
+                      background: "#fafafa",
+                      borderBottom: "1px solid #eee",
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                    }}
+                  >
+                    <div
+                      style={{ display: "flex", alignItems: "center", gap: 8 }}
+                    >
+                      <button
+                        onClick={() => toggleExpand(code)}
+                        style={{
+                          border: "none",
+                          background: "none",
+                          cursor: "pointer",
+                          fontSize: "16px",
+                        }}
+                      >
+                        {expanded[code] ? "▼" : "▶"}
+                      </button>
+                      {(() => {
+                        const rows = courses.get(code);
+                        const lect =
+                          rows.find((r) => r.type === "LECT") || rows[0];
+                        return (
+                          <strong>
+                            {code} {lect?.section ? `- ${lect.section}` : ""} 
+                          </strong>
+                        );
+                      })()}
+                    </div>
 
-                                  await load();
-                                } catch {}
-                              }}
-                            >
-                              Delete
-                            </button>
+                    {confirmDelete === code ? (
+                      <span>
+                        Delete this course?{" "}
+                        <button onClick={() => doDelete(code)}>Yes</button>{" "}
+                        <button onClick={() => setConfirmDelete(null)}>
+                          No
+                        </button>
+                      </span>
+                    ) : (
+                      <button onClick={() => setConfirmDelete(code)}>
+                        Delete
+                      </button>
+                    )}
                   </div>
-                  <table border="0" cellPadding="6" style={{ width: "100%" }}>
-                    <thead>
-                      <tr style={{ textAlign: "left" }}>
-                        <th>Type</th><th>Section</th><th>Days</th><th>Start</th><th>Duration</th><th>Room</th><th></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {courses.get(code).map((s) => (
-                        <tr key={s.id}>
-                          <td>{s.type}</td>
-                          <td>{s.section}</td>
-                          <td>{s.days}</td>
-                          <td>{s.startTime}</td>
-                          <td>{s.duration ?? ""}</td>
-                          <td>{s.room}</td>
-                          <td style={{ textAlign: "right" }}>                            
-                          </td>
+
+                  {expanded[code] && (
+                    <table border="0" cellPadding="6" style={{ width: "100%" }}>
+                      <thead>
+                        <tr style={{ textAlign: "left" }}>
+                          <th>Type</th>
+                          <th>Section</th>
+                          <th>Days</th>
+                          <th>Start</th>
+                          <th>Duration</th>
+                          <th>Room</th>
                         </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                      </thead>
+                      <tbody>
+                        {courses.get(code).map((s) => (
+                          <tr key={s.id}>
+                            <td>{s.type}</td>
+                            <td>{s.section}</td>
+                            <td>{s.days}</td>
+                            <td>{s.startTime}</td>
+                            <td>{s.duration ?? ""}</td>
+                            <td>{s.room}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  )}
                 </div>
               ))}
             </div>

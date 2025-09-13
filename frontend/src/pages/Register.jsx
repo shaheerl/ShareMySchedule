@@ -26,7 +26,10 @@ export default function Register() {
         password,
       });
       // show success + dev link (while email service not hooked up)
-      setMsg(res.message + (res.devVerifyUrl ? `  Dev link: ${res.devVerifyUrl}` : ""));
+      setMsg(
+        res.message +
+          (res.devVerifyUrl ? `  Dev link: ${res.devVerifyUrl}` : "")
+      );
       // Optional: navigate back to sign in
       // nav("/signin");
     } catch (err) {
@@ -43,11 +46,23 @@ export default function Register() {
         <label>Last Name</label>
         <input value={lastName} onChange={(e) => setLast(e.target.value)} />
         <label>Email (@my.yorku.ca)</label>
-        <input value={email} onChange={(e) => setEmail(e.target.value)} placeholder="yourname@my.yorku.ca" />
+        <input
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="yourname@my.yorku.ca"
+        />
         <label>Password</label>
-        <input type="password" value={password} onChange={(e) => setPass(e.target.value)} />
+        <input
+          type="password"
+          value={password}
+          onChange={(e) => setPass(e.target.value)}
+        />
         <label>Verify Password</label>
-        <input type="password" value={confirm} onChange={(e) => setConfirm(e.target.value)} />
+        <input
+          type="password"
+          value={confirm}
+          onChange={(e) => setConfirm(e.target.value)}
+        />
         <button type="submit">Create Account</button>
       </form>
 
@@ -60,8 +75,20 @@ export default function Register() {
 }
 
 const styles = {
-  wrap: { maxWidth: 480, margin: "60px auto", padding: 20, border: "1px solid #ddd", borderRadius: 8 },
+  wrap: {
+    maxWidth: 480,
+    margin: "60px auto",
+    padding: 20,
+    border: "1px solid #ddd",
+    borderRadius: 8,
+  },
   form: { display: "flex", flexDirection: "column", gap: 8 },
-  linkBtn: { marginTop: 10, background: "transparent", border: "1px solid #333", padding: "8px 12px", cursor: "pointer" },
+  linkBtn: {
+    marginTop: 10,
+    background: "transparent",
+    border: "1px solid #333",
+    padding: "8px 12px",
+    cursor: "pointer",
+  },
   msg: { marginTop: 10, color: "#444" },
 };
