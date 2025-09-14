@@ -51,8 +51,12 @@ export default function SignIn() {
 
       {msg && <p style={styles.msg}>{msg}</p>}
       <p style={{ marginTop: 8 }}>
-        Don’t have an account? <Link to="/register">Create one</Link>
-      </p>
+  Don’t have an account? <Link to="/register">Create one</Link>
+</p>
+<p style={{ marginTop: 8 }}>
+  Need to verify? <Link to="/resend-verification">Resend verification</Link>
+</p>
+
     </div>
   );
 }

@@ -68,8 +68,12 @@ export default function Register() {
 
       {msg && <p style={styles.msg}>{msg}</p>}
       <p style={{ marginTop: 8 }}>
-        Already have an account? <Link to="/signin">Sign in</Link>
-      </p>
+  Already have an account? <Link to="/signin">Sign in</Link>
+</p>
+<p style={{ marginTop: 8 }}>
+  Lost your verification email? <Link to="/resend-verification">Resend verification</Link>
+</p>
+
     </div>
   );
 }

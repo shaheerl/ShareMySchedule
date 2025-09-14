@@ -12,6 +12,9 @@ import ManualEntry from "./pages/ManualEntry";
 import FindClassmates from "./pages/FindClassmates";
 import Inbox from "./pages/Inbox";
 import MyFriends from "./pages/MyFriends";
+import Verified from "./pages/Verified";
+import ResendVerification from "./pages/ResendVerification";
+
 
 function AppRoutes() {
   const nav = useNavigate();
@@ -46,6 +49,7 @@ const refreshToken = sessionStorage.getItem("refreshToken");
       {/* Public */}
       <Route path="/signin" element={<SignIn />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/resend-verification" element={<ResendVerification />} />
 
       {/* Protected layout */}
       <Route
@@ -55,6 +59,7 @@ const refreshToken = sessionStorage.getItem("refreshToken");
           </ProtectedRoute>
         }
       >
+              <Route path="/verified" element={<Verified />} />
         <Route path="inbox" element={<Inbox />} />
         <Route path="/home" element={<Home />} />
 <Route path="/find-classmates" element={<FindClassmates />} />
